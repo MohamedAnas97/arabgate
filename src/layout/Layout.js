@@ -23,6 +23,18 @@ const Layout = ({ children, header, footer3, singleMenu }) => {
         {children}
         <Footer footer={footer3} />
         <ScrollTop />
+        <div style={{ position: "fixed", right: "10px", bottom: "10px" }}>
+          <a
+            href="https://api.whatsapp.com/send?phone=971527690405&text="
+            target="_blank"
+          >
+            <img
+              src="/assets/images/arab2/whatsapp.png"
+              alt=""
+              style={{ height: "50px" }}
+            />
+          </a>
+        </div>
       </div>
     </Fragment>
   );

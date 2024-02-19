@@ -41,13 +41,10 @@ const index5 = () => {
   return (
     <Layout footer={5} header={5}>
       <Home5Slider />
-
-      {/* Client Logo Two end */}
       {/* Service Box start */}
       <section className="what-we-offer pb-90 rpb-70">
         <div className="container container-1290">
           <div className="section-title text-center mt-60 mb-40 wow fadeInUp delay-0-2s">
-            {/* <span className="sub-title mb-20">What We offer</span> */}
             <h3 className="text-color font-fam h2-font">
               How Can We Help You Today?
             </h3>
@@ -58,15 +55,11 @@ const index5 = () => {
                 <div className="icon">
                   <img src="/assets/images/arab/interior.png" alt="" />
                 </div>
-                {/* <div className="number">01</div> */}
                 <h4 className="font-fam h4-font">
                   <Link href="service-details">
                     Interior Fit-Out and Renovation
                   </Link>
                 </h4>
-                {/* <Link href="service-details" className="more">
-                  <i className="far fa-arrow-right" />
-                </Link> */}
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-md-6">
