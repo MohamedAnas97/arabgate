@@ -23,7 +23,14 @@ const Layout = ({ children, header, footer3, singleMenu }) => {
         {children}
         <Footer footer={footer3} />
         <ScrollTop />
-        <div style={{ position: "fixed", right: "10px", bottom: "10px" }}>
+        <div
+          style={{
+            position: "fixed",
+            right: "10px",
+            bottom: "10px",
+            zIndex: 20,
+          }}
+        >
           <a
             href="https://api.whatsapp.com/send?phone=971527690405&text="
             target="_blank"
