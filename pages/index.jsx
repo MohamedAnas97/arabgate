@@ -174,34 +174,6 @@ const index5 = () => {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div className="team-member style-three wow fadeInUp delay-0-2s">
-                <div className="image">
-                  <img src="assets/images/arab/h10.jpg" alt="image" />
-                  <Link href="/contact-us">
-                    {" "}
-                    <div className="social-style-two">
-                      <button className="button-color font-fam">
-                        Book Now
-                      </button>
-                    </div>
-                  </Link>
-                </div>
-                <div className="content">
-                  <h4 className="text-color font-fam">
-                    Interior Fit-out and Renovation
-                  </h4>
-                  <p></p>
-
-                  <span>
-                    <a className="read-more1 font-fam" href="/interior-fitout">
-                      More Details
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
             <div className="col-xl-3 col-lg-4 col-sm-6 ">
               <div className="team-member style-three wow fadeInUp delay-0-4s ">
                 <div className="image">
@@ -216,8 +188,13 @@ const index5 = () => {
                 </div>
                 <div className="content ">
                   <h4 className="text-color font-fam">Electrical Services</h4>
+                  <h6 className="text-color font-fam h6-font mt-10 five-line">
+                    This encompasses the installation, repair, and maintenance
+                    of electrical systems in residential, commercial, and
+                    industrial buildings. It includes wiring, lighting, outlets,
+                    circuit breakers, and other electrical components
+                  </h6>
                   <Link href="/interior-fitout">
-                    {" "}
                     <span>
                       <a className="read-more1 font-fam">
                         More Details
@@ -242,6 +219,12 @@ const index5 = () => {
                 </div>
                 <div className="content">
                   <h4 className="text-color font-fam">Plumbing Services</h4>
+                  <h6 className="text-color font-fam h6-font mt-10 five-line">
+                    Painting services involve applying paint to surfaces, both
+                    interior and exterior, to enhance aesthetics and protect
+                    against corrosion. Epoxy coatings are often used for
+                    flooring and provide durability and chemical resistance.
+                  </h6>
                   <Link href="/interior-fitout">
                     <span>
                       <a className="read-more1 font-fam">
@@ -253,6 +236,100 @@ const index5 = () => {
                 </div>
               </div>
             </div>
+            <div className="col-xl-3 col-lg-4 col-sm-6">
+              <div className="team-member style-three wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img src="assets/images/arab/h9.jpg" alt="image" />
+                  <Link href="/contact-us">
+                    <div className="social-style-two">
+                      <button className="button-color font-fam">
+                        Book Now
+                      </button>
+                    </div>
+                  </Link>
+                </div>
+                <div className="content">
+                  <h4 className="text-color font-fam ">Painting and Epoxy</h4>
+                  <h6 className="text-color font-fam h6-font mt-10 five-line">
+                    Painting services involve applying paint to surfaces, both
+                    interior and exterior, to enhance aesthetics and protect
+                    against corrosion. Epoxy coatings are often used for
+                    flooring and provide durability and chemical resistance.
+                  </h6>
+                  <Link href="/interior-fitout">
+                    <span>
+                      <a className="read-more1 font-fam">
+                        More Details
+                        <i className="far fa-arrow-right" />
+                      </a>
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-sm-6">
+              <div className="team-member style-three wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img src="assets/images/arab/h5.jpg" alt="image" />
+                  <Link href="/contact-us">
+                    <div className="social-style-two">
+                      <button className="button-color font-fam">
+                        Book Now
+                      </button>
+                    </div>
+                  </Link>
+                </div>
+                <div className="content">
+                  <h4 className="text-color font-fam">CCTV Security Systems</h4>
+                  <h6 className="text-color font-fam h6-font mt-10 five-line">
+                    Closed-Circuit Television systems are used for surveillance
+                    and security purposes. Installation and maintenance of CCTV
+                    systems help monitor and secure premises.
+                  </h6>
+                  <Link href="/interior-fitout">
+                    <span>
+                      <a className="read-more1 font-fam">
+                        More Details
+                        <i className="far fa-arrow-right" />
+                      </a>
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-sm-6">
+              <div className="team-member style-three wow fadeInUp delay-0-2s">
+                <div className="image">
+                  <img src="assets/images/arab/h10.jpg" alt="image" />
+                  <Link href="/contact-us">
+                    {" "}
+                    <div className="social-style-two">
+                      <button className="button-color font-fam">
+                        Book Now
+                      </button>
+                    </div>
+                  </Link>
+                </div>
+                <div className="content">
+                  <h4 className="text-color font-fam">
+                    Interior Fit-out and Renovation
+                  </h4>
+                  <h6 className="text-color font-fam h6-font mt-10 four-line">
+                    This involves the process of making interior spaces suitable
+                    for occupation. It includes tasks like space planning,
+                    installing fixtures, flooring, walls, ceilings, and other
+                    interior elements.
+                  </h6>
+                  <span>
+                    <a className="read-more1 font-fam" href="/interior-fitout">
+                      More Details
+                      <i className="far fa-arrow-right" />
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member style-three wow fadeInUp delay-0-8s">
                 <div className="image">
@@ -269,6 +346,11 @@ const index5 = () => {
                   <h4 className="text-color font-fam">
                     HVAC Maintenance and Repair
                   </h4>
+                  <h6 className="text-color font-fam h6-font mt-10 four-line">
+                    HVAC stands for Heating, Ventilation, and Air Conditioning.
+                    This service involves maintaining, repairing, and installing
+                    heating and cooling systems in buildings.
+                  </h6>
                   <Link href="/interior-fitout">
                     <span>
                       <a className="read-more1 font-fam">
@@ -296,6 +378,11 @@ const index5 = () => {
                   <h4 className="text-color font-fam">
                     Digital Displays & Signages
                   </h4>
+                  <h6 className="text-color font-fam h6-font mt-10 four-line">
+                    This involves the installation and maintenance of digital
+                    signage solutions for advertising, information display, and
+                    branding purposes.
+                  </h6>
                   <Link href="/interior-fitout">
                     <span>
                       <a className="read-more1 font-fam">
@@ -307,57 +394,6 @@ const index5 = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div className="team-member style-three wow fadeInUp delay-0-2s">
-                <div className="image">
-                  <img src="assets/images/arab/h9.jpg" alt="image" />
-                  <Link href="/contact-us">
-                    <div className="social-style-two">
-                      <button className="button-color font-fam">
-                        Book Now
-                      </button>
-                    </div>
-                  </Link>
-                </div>
-                <div className="content">
-                  <h4 className="text-color font-fam">Painting and Epoxy</h4>
-                  <Link href="/interior-fitout">
-                    <span>
-                      <a className="read-more1 font-fam">
-                        More Details
-                        <i className="far fa-arrow-right" />
-                      </a>
-                    </span>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div className="team-member style-three wow fadeInUp delay-0-2s">
-                <div className="image">
-                  <img src="assets/images/arab/h5.jpg" alt="image" />
-                  <Link href="/contact-us">
-                    <div className="social-style-two">
-                      <button className="button-color font-fam">
-                        Book Now
-                      </button>
-                    </div>
-                  </Link>
-                </div>
-                <div className="content">
-                  <h4 className="text-color font-fam">CCTV Security Systems</h4>
-                  <Link href="/interior-fitout">
-                    <span>
-                      <a className="read-more1 font-fam">
-                        More Details
-                        <i className="far fa-arrow-right" />
-                      </a>
-                    </span>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member style-three wow fadeInUp delay-0-2s">
                 <div className="image">
@@ -374,6 +410,11 @@ const index5 = () => {
                   <h4 className="text-color font-fam">
                     Display Fixtures for Retail & Exhibitions
                   </h4>
+                  <h6 className="text-color font-fam h6-font mt-10 four-line">
+                    This involves designing, fabricating, and installing display
+                    fixtures for retail stores, exhibitions, trade shows, and
+                    other commercial spaces to showcase products effectively.
+                  </h6>
                   <Link href="/interior-fitout">
                     <span>
                       <a className="read-more1 font-fam">
