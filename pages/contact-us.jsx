@@ -8,13 +8,10 @@ const contactDetails = () => {
       {/* Page Banner Start */}
       <PageBanner pageName={"Contact Us"} />
       {/* Page Banner End */}
-
-      
-
-      <div className="mt-80">
+      <div className="mt-80 mb-80">
         <ContactLayout />
       </div>
-      <div className="contact-page-map mb-120 rpb-90 wow fadeInUp delay-0-2s">
+      <div className="contact-page-map mb-70 rpb-60 wow fadeInUp delay-0-2s">
         <div className="container-fluid">
           <div className="our-location">
             <iframe
@@ -27,7 +24,6 @@ const contactDetails = () => {
           </div>
         </div>
       </div>
-     
     </Layout>
   );
 };

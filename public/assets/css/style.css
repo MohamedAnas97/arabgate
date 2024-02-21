@@ -5032,7 +5032,7 @@ h6,
   position: absolute;
   right: -250px;
   top: -130px;
-  background: var(--ygency-primary-color);
+  background: #fff;
   -webkit-animation: zoomInOut 5s infinite;
   animation: zoomInOut 5s infinite;
 }
@@ -5143,12 +5143,12 @@ h6,
   }
 }
 .hero-social a {
-  color: var(--ygency-secondary-color);
+  color: #222;
   text-transform: capitalize;
   -webkit-writing-mode: vertical-lr;
 }
 .hero-social a:hover {
-  color: var(--ygency-primary-color);
+  color: #f15a29;
   text-decoration: underline;
 }
 .hero-social a i {
@@ -9765,11 +9765,11 @@ blockquote .blockquote-footer:before {
   content: "";
   z-index: -1;
   width: 135%;
-  opacity: 0.1;
+  opacity: 0.3;
   position: absolute;
   left: 50%;
   bottom: -8%;
-  background: white;
+  background: #444;
   padding-bottom: 135%;
   border-radius: 50%;
   -webkit-transform: translate(-50%);

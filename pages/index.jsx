@@ -1,11 +1,9 @@
 import Home5Slider from "@/src/components/sliders/Home5Slider";
 import Layout from "@/src/layout/Layout";
-import { sliderProps } from "@/src/sliderProps";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import Slider from "react-slick";
 import ReactPlayer from "react-player";
 import ContactLayout from "@/src/components/contactFooter";
 // import { Swiper, SwiperSlide } from "swiper/react";

@@ -13,29 +13,42 @@ const PaintingEpoxy = () => {
   const accordionData = [
     {
       id: 1,
-      title: "How do we assess the quality of the company's work?",
+      title: "What painting and epoxy services do you offer?",
       content:
-        "There are a number of ways through which our work can be verified and assessed, you can do a thorough portfolio examination, check our testimonials and client references, check our reviews and ratings online, inquire about our     team’s technical expertise and certifications, check out our communication and     project management practices and policies, inquire about our post-launch     support and maintenance policies and most of all learn more about us and our     knack for innovation and future-readiness",
+        "We offer comprehensive painting and epoxy services for residential, commercial, and industrial properties. Our services include interior and exterior painting, epoxy floor coatings, decorative finishes, and more.",
     },
     {
       id: 2,
-      title:
-        " What makes your company unique in the software development industry?",
+      title: "How do I choose the right paint colors for my space?",
       content:
-        "With unparalleled technical expertise, our team of skilled developers, designers,  and strategists have diverse industry experience. We understand your unique business requirements and create tailored software solutions aligned with your  goals.",
+        "Our experienced team can provide personalized color consultations to help you choose the perfect paint colors that complement your style, enhance your space, and achieve the desired ambiance.",
     },
     {
       id: 3,
-      title: "How do you handle project timelines and deadlines?",
+      title: "What are the benefits of epoxy floor coatings?",
       content:
-        "Through clear communication between team members, using project management tools and tracking progress and making adjustments through rigorous testing.",
+        "Epoxy floor coatings provide a durable, seamless, and easy-to-clean surface that is resistant to stains, chemicals, and abrasions. They are ideal for high-traffic areas such as garages, warehouses, commercial kitchens, and industrial facilities.",
     },
     {
       id: 4,
       title:
-        "	What is Agile methodology, and do you follow it in your projects?",
+        "	Do you offer eco-friendly painting options?",
       content:
-        "Agile methodology is a form of project management which prioritises cross-functional collaboration and continuous improvement by dividing projects into smaller parts and phases which helps teams evaluate projects constantly and detect errors as well as plan and execute them effectively.",
+        "Yes, we offer eco-friendly paint options that are low in volatile organic compounds (VOCs) and environmentally friendly. These paints are safer for indoor air quality and reduce environmental impact.",
+    },
+    {
+      id: 5,
+      title:
+        "How long does it take to complete a painting or epoxy project?",
+      content:
+        "The duration of a painting or epoxy project depends on factors such as the size of the area, surface preparation required, and weather conditions. Our team will provide you with a detailed timeline and keep you informed throughout the process.",
+    },
+    {
+      id: 6,
+      title:
+        "Can you work around my schedule to minimize disruption?",
+      content:
+        " Absolutely! We understand the importance of minimizing disruption to your daily routine or business operations. Our team can work during off-hours, weekends, or times that are most convenient for you to ensure a smooth and efficient painting or epoxy installation process.",
     },
   ];
   const [active, setActive] = useState("collapse0");

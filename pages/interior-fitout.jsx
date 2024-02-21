@@ -12,29 +12,44 @@ const ProductDetails = () => {
   const accordionData = [
     {
       id: 1,
-      title: "How do we assess the quality of the company's work?",
+      title: "What types of spaces do you specialize in renovating?",
       content:
-        "There are a number of ways through which our work can be verified and assessed, you can do a thorough portfolio examination, check our testimonials and client references, check our reviews and ratings online, inquire about our     team’s technical expertise and certifications, check out our communication and     project management practices and policies, inquire about our post-launch     support and maintenance policies and most of all learn more about us and our     knack for innovation and future-readiness",
+        "We specialize in renovating various types of spaces, including residential homes, commercial offices, retail stores, restaurants, hotels, and other commercial establishments.",
     },
     {
       id: 2,
       title:
-        " What makes your company unique in the software development industry?",
+        "How long does a typical interior fit-out or renovation project take?",
       content:
-        "With unparalleled technical expertise, our team of skilled developers, designers,  and strategists have diverse industry experience. We understand your unique business requirements and create tailored software solutions aligned with your  goals.",
+        "The duration of a project depends on its size, complexity, and scope. However, we strive to provide realistic timelines and efficient project management to ensure timely completion.",
     },
     {
       id: 3,
-      title: "How do you handle project timelines and deadlines?",
+      title:
+        "Do you provide design services, or do I need to hire a separate designer?",
       content:
-        "Through clear communication between team members, using project management tools and tracking progress and making adjustments through rigorous testing.",
+        "We offer comprehensive design services, including conceptualization, space planning, material selection, and 3D visualization. Our team of experienced designers will work closely with you to bring your vision to life.",
     },
     {
       id: 4,
       title:
-        "	What is Agile methodology, and do you follow it in your projects?",
+        "Can I provide input or make changes during the renovation process?",
       content:
-        "Agile methodology is a form of project management which prioritises cross-functional collaboration and continuous improvement by dividing projects into smaller parts and phases which helps teams evaluate projects constantly and detect errors as well as plan and execute them effectively.",
+        "Absolutely! We welcome your input and encourage open communication to accommodate any changes or adjustments you'd like to make. Your satisfaction is our top priority, and we're here to ensure your vision comes to life.",
+    },
+    {
+      id: 5,
+      title:
+        "How do you ensure the quality and durability of the materials used in the renovation?",
+      content:
+        " We source materials from reputable suppliers known for their quality and durability. Additionally, our team conducts thorough inspections throughout the renovation process to ensure that only the highest-quality materials are used, resulting in a finished product that exceeds industry standards.",
+    },
+    {
+      id: 6,
+      title:
+        "What post-renovation support do you offer?",
+      content:
+        "Our commitment to your satisfaction doesn't end with the completion of the renovation. We provide post-renovation support to address any additional needs or questions you may have, ensuring that you're completely satisfied with the outcome of your project.",
     },
   ];
   const [active, setActive] = useState("collapse0");
@@ -81,14 +96,15 @@ const ProductDetails = () => {
                 <li className="text-color font-fam h5-font">
                   Retail Fit-Outs for Customer Appeal
                 </li>
-                <li className="text-color font-fam h5-font">Residential Fit-Outs for Comfort</li>
                 <li className="text-color font-fam h5-font">
-                Kitchen and Bath Renovations
+                  Residential Fit-Outs for Comfort
                 </li>
                 <li className="text-color font-fam h5-font">
-                Gypsum partitions for Offices and Residence
+                  Kitchen and Bath Renovations
                 </li>
-               
+                <li className="text-color font-fam h5-font">
+                  Gypsum partitions for Offices and Residence
+                </li>
               </ul>
             </div>
           </div>
@@ -176,7 +192,6 @@ const ProductDetails = () => {
             <div className="col-lg-6">
               <div className="faq-content-part rmb-55 wow fadeInRight delay-0-2s">
                 <div className="section-title mb-60">
-                
                   <h2>Frequently Asked Question</h2>
                 </div>
                 <Accordion
@@ -203,7 +218,7 @@ const ProductDetails = () => {
             </div>
             <div className="col-lg-5">
               <div className="faq-four-iamge wow fadeInLeft delay-0-2s">
-              <img src="assets/images/arab/person.png" alt="FAQs" />
+                <img src="assets/images/arab/person.png" alt="FAQs" />
               </div>
             </div>
           </div>

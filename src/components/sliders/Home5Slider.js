@@ -32,9 +32,8 @@ export default class Home5Slider extends Component {
               <div className="container ">
                 <div className="slide-content">
                   <h2 className="mt-60">
-                    <span className="font-fam">Beyond Expectations</span>
-                    <br className="font-fam" /> Maintenance Solutions Designed
-                    with You in Mind
+                    <span className="font-fam">Perfect Marketing</span>
+                    <br className="font-fam" /> For Growth Your Dream Business
                   </h2>
                   <hr />
                   <div className="ratting-btns">

@@ -1,15 +1,12 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 import YgencyAccordion from "@/src/components/YgencyAccordion";
-// import Link from "next/link";
 import { sliderProps } from "@/src/sliderProps";
 import ContactLayout from "@/src/components/contactFooter";
-// import { Nav, Tab } from "react-bootstrap";
 import { Accordion } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
-import ContactForm1 from "@/src/components/ContactForm1";
 import { useState } from "react";
-const ElectricalServices = () => {
+const DigitalDisplay = () => {
   const accordionData = [
     {
       id: 1,
@@ -38,7 +35,8 @@ const ElectricalServices = () => {
     },
     {
       id: 5,
-      title: "Can you help with energy-efficient lighting solutions or electrical upgrades?",
+      title:
+        "Can you help with energy-efficient lighting solutions or electrical upgrades?",
       content:
         "Absolutely! We specialize in energy-efficient lighting solutions and can recommend and install LED lighting, smart lighting controls, and other energy-saving technologies to help you reduce your energy consumption and save on utility bills.",
     },
@@ -53,91 +51,102 @@ const ElectricalServices = () => {
   return (
     <Layout>
       {/* Page Banner Start */}
-      <PageBanner pageName={"Electrical Services"} />
+      <PageBanner pageName={"Digital Display & Signages"} />
       {/* Page Banner End */}
 
       <div className="container container-1290">
         <div className="row">
           <div className="col-lg-12 mt-30">
             <h5 className="fadeInUp delay-0-2s wow mt-30 text-color font-fam h5-font">
-              We take pride in delivering top-tier electrical services tailored
-              to meet the diverse needs of our clients.
-            </h5>
-            <h5 className="fadeInUp delay-0-2s wow mt-30 text-color font-fam h5-font">
-              Whether you're a homeowner, a business owner or a property
-              manager, our team of skilled electricians is dedicated to ensuring
-              the safety, reliability and efficiency of your electrical systems.
-              Specialized in Electrical panel installation,repair and
-              maintenance.
+              We can install any type of digital displays customized for your
+              business needs. We have partnered with the best in the industry to
+              provide you with displays with high refresh rates, high pixels to
+              fine pixel pitch and longer LED lifetimes.
             </h5>
           </div>
           <div className="about-content wow fadeInUp delay-0-4s">
             <div className="section-title pt-20">
-              {/* <span className="sub-title mb-15">What We Do</span> */}
-              <h4 className="text-color font-fam h4-font">
-                Commercial Electrical Services:
-              </h4>
+              <h4 className="text-color font-fam h4-font">Indoor Displays</h4>
             </div>
             <div className="content">
               <ul className="list-style-three ">
                 <li className="text-color font-fam h5-font">
-                  <span className="font-semibold">
-                    Customized Wiring and Lighting
-                  </span>{" "}
-                  Tailored electrical solutions for offices, retail spaces and
-                  commercial establishments. Energy-efficient lighting designs
-                  to create a welcoming and productive environment.
+                  Our full-color indoor LED solutions are sources from the best
+                  to display vibrant content that is guaranteed to turn heads.
                 </li>
                 <li className="text-color font-fam h5-font">
-                  <span className="font-semibold"> Repair and Maintenance</span>{" "}
-                  Swift response for electrical repairs, troubleshooting and
-                  maintenance. Regular inspections to identify and address
-                  potential issues before they become major concerns.
+                  Our solutions include information displays, pylons, large
+                  in-store marketing displays and more, all which help to engage
+                  customer interest, sell and create an impact in today’s busy
+                  consumer environments.
                 </li>
               </ul>
             </div>
           </div>
           <div className="about-content wow fadeInUp delay-0-4s">
             <div className="section-title pt-20">
-              {/* <span className="sub-title mb-15">What We Do</span> */}
+              <h4 className="text-color font-fam h4-font">Outdoor Displays</h4>
+            </div>
+            <div className="content">
+              <ul className="list-style-three ">
+                <li className="text-color font-fam h5-font">
+                  Built to withstand extreme climate conditions of GCC, our
+                  outdoor LED screens provide the perfect viewing solutions for
+                  large areas and arenas.
+                </li>
+                <li className="text-color font-fam h5-font">
+                  Captivate the electrifying energy of a stadium on large
+                  multi-screens or provide high-definition displays to infuse
+                  life into live concerts and shows.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="about-content wow fadeInUp delay-0-4s">
+            <div className="section-title pt-20">
               <h4 className="text-color font-fam h4-font">
-                Residential Electrical Solutions:
+                Interactive Screens for Schools and Business
               </h4>
             </div>
             <div className="content">
               <ul className="list-style-three ">
                 <li className="text-color font-fam h5-font">
-                  <span className="font-semibold">
-                    Installation and Upgrades
-                  </span>{" "}
-                  Safely install new electrical systems or upgrade existing
-                  ones. Enhance your home with the latest in energy-efficient
-                  lighting and appliances.
+                  Classrooms and workplaces are getting smarter, quicker-paced
+                  and more efficient.
                 </li>
                 <li className="text-color font-fam h5-font">
-                  <span className="font-semibold">Power Distribution</span>{" "}
-                  Design and implement efficient power distribution systems.
-                  Ensure optimal power supply to support the needs of your
-                  business operations.
+                  We have partnered with top-notch global solutions providers to
+                  design products for schools, universities and other education
+                  providers, as well as for other progressive businesses across
+                  the UAE.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="about-content wow fadeInUp delay-0-4s">
+            <div className="section-title pt-20">
+              <h4 className="text-color font-fam h4-font">
+                Digital Signage Software
+              </h4>
+            </div>
+            <div className="content">
+              <ul className="list-style-three ">
+                <li className="text-color font-fam h5-font">
+                  Classrooms and workplaces are getting smarter, quicker-paced
+                  and more efficient.
+                </li>
+                <li className="text-color font-fam h5-font">
+                  We have partnered with top-notch global solutions providers to
+                  design products for schools, universities and other education
+                  providers, as well as for other progressive businesses across
+                  the UAE.
                 </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Related Products Area start */}
       <section className="work-gallery-area py-80 rpy-80">
-        {/* <div className="container container-1290">
-          <div className="row justify-content-center">
-            <div className="col-xl-8 col-lg-10">
-              <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-20">Recent Works Gallery</span>
-                <h2>We’ve Complete 1532+ Projects Take A Look Our Work</h2>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className="container">
           <Swiper
             {...sliderProps.galleryFiveActive}
@@ -146,56 +155,56 @@ const ElectricalServices = () => {
             <SwiperSlide>
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/arab/ele1.jpg" alt="" />
+                  <img src="assets/images/arab2/sig1.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
               <div className="project-item style-five wow fadeInUp delay-0-4s">
                 <div className="image">
-                  <img src="assets/images/arab/ele6.jpg" alt="" />
+                  <img src="assets/images/arab2/sig2.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
               <div className="project-item style-five wow fadeInUp delay-0-6s">
                 <div className="image">
-                  <img src="assets/images/arab/ele9.jpg" alt="" />
+                  <img src="assets/images/arab2/sig3.jpg" alt="" />
                 </div>
               </div>{" "}
             </SwiperSlide>
             <SwiperSlide>
               <div className="project-item style-five wow fadeInUp delay-0-8s">
                 <div className="image">
-                  <img src="assets/images/arab/ele5.jpg" alt="" />
+                  <img src="assets/images/arab2/sig4.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/arab/ele8.jpg" alt="" />
+                  <img src="assets/images/arab2/sig5.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/arab/ele7.jpg" alt="" />
+                  <img src="assets/images/arab2/sig6.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/arab/ele10.jpg" alt="" />
+                  <img src="assets/images/arab2/sig7.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/arab/ele4.jpg" alt="" />
+                  <img src="assets/images/arab2/sig8.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>
@@ -255,4 +264,4 @@ const ElectricalServices = () => {
     </Layout>
   );
 };
-export default ElectricalServices;
+export default DigitalDisplay;

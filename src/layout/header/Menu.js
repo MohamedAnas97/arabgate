@@ -43,7 +43,7 @@ const DaskTopMenu = () => {
             </Link>
           </li>
           <li>
-            <Link legacyBehavior href="/ac-maintenanceandrepair">
+            <Link legacyBehavior href="/ac-maintenance-repair">
             AC Maintenance and Repair
             </Link>
           </li>
@@ -53,12 +53,12 @@ const DaskTopMenu = () => {
             </Link>
           </li>
           <li>
-            <Link legacyBehavior href="interior-fitout">
+            <Link legacyBehavior href="cctv-security-system">
             CCTV Security Systems
             </Link>
           </li>
           <li>
-            <Link legacyBehavior href="interior-fitout">
+            <Link legacyBehavior href="digital-display-signages">
             Digital Displays & Signages
             </Link>
           </li>
@@ -72,86 +72,8 @@ const DaskTopMenu = () => {
           <span className="far fa-plus" />
         </div>
       </li>
-
-      {/* <li className="dropdown">
-        <Link legacyBehavior href="project-list">
-          Portfolio
-        </Link>
-       
-      </li> */}
-      {/* <li className="dropdown">
-        <a href="#">Pages</a>
-        <ul>
-          <li>
-            <Link legacyBehavior href="faqs">
-              faqs
-            </Link>
-          </li>
-          <li className="dropdown">
-            <a href="#">Products</a>
-            <ul>
-              <li>
-                <Link legacyBehavior href="shop">
-                  our Products
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="product-details">
-                  Product Details
-                </Link>
-              </li>
-            </ul>
-            <div className="dropdown-btn">
-              <span className="far fa-plus" />
-            </div>
-          </li>
-          <li className="dropdown">
-            <a href="#">Team</a>
-            <ul>
-              <li>
-                <Link legacyBehavior href="team">
-                  Team Members
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="team-details">
-                  Team Details
-                </Link>
-              </li>
-            </ul>
-            <div className="dropdown-btn">
-              <span className="far fa-plus" />
-            </div>
-          </li>
-          <li>
-            <Link legacyBehavior href="contact">
-              Contact us
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="pricing">
-              Pricing Plan
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="404">
-              404 error
-            </Link>
-          </li>
-        </ul>
-        <div className="dropdown-btn">
-          <span className="far fa-plus" />
-        </div>
-      </li> */}
-
-      {/* <li className="dropdown">
-        <Link legacyBehavior href="blog">
-          blog
-        </Link>
-       
-      </li> */}
       <li>
-        <Link legacyBehavior href="#">
+        <Link legacyBehavior href="about">
           About Us
         </Link>
       </li>
@@ -177,144 +99,6 @@ const MobileMenu = () => {
       value === multiMenu ? { display: "block" } : { display: "none" };
   return (
     <ul className="navigation d-block d-lg-none mobile-menu">
-      {/* <li className="dropdown">
-        <a href="#">Home</a>
-        <ul style={activeLi("home")}>
-          <li className="dropdown">
-            <a href="#">MultiPage</a>
-            <ul style={multiMenuActiveLi("multiPage")}>
-              <li>
-                <Link legacyBehavior href="/">
-                  Web Design
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="index2">
-                  Web Development
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="index3">
-                  Creative Design Studio
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="index4">
-                  Web Developer
-                </Link>
-              </li>
-            </ul>
-            <div
-              className="dropdown-btn"
-              onClick={() => multiMenuSet("multiPage")}
-            >
-              <span className="far fa-plus" />
-            </div>
-          </li>
-          <li className="dropdown">
-            <a href="#">OnePage</a>
-            <ul style={multiMenuActiveLi("OnePage")}>
-              <li>
-                <Link legacyBehavior href="index1-onepage">
-                  Web Design
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="index2-onepage">
-                  Web Development
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="index3-onepage">
-                  Creative Design Studio
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="index4-onepage">
-                  Web Developer
-                </Link>
-              </li>
-            </ul>
-            <div
-              className="dropdown-btn"
-              onClick={() => multiMenuSet("OnePage")}
-            >
-              <span className="far fa-plus" />
-            </div>
-          </li>
-        </ul>
-        <div className="dropdown-btn" onClick={() => activeMenuSet("home")}>
-          <span className="far fa-plus" />
-        </div>
-      </li> */}
-
-      {/* <li className="dropdown">
-        <a href="#">pages</a>
-        <ul style={activeLi("pages")}>
-          <li>
-            <Link legacyBehavior href="faqs">
-              faqs
-            </Link>
-          </li>
-          <li className="dropdown">
-            <a href="#">Products</a>
-            <ul style={multiMenuActiveLi("Products")}>
-              <li>
-                <Link legacyBehavior href="shop">
-                  our Products
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="product-details">
-                  Product Details
-                </Link>
-              </li>
-            </ul>
-            <div
-              className="dropdown-btn"
-              onClick={() => multiMenuSet("Products")}
-            >
-              <span className="far fa-plus" />
-            </div>
-          </li>
-          <li className="dropdown">
-            <a href="#">Team</a>
-            <ul style={multiMenuActiveLi("Team")}>
-              <li>
-                <Link legacyBehavior href="team">
-                  Team Members
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="team-details">
-                  Team Details
-                </Link>
-              </li>
-            </ul>
-            <div className="dropdown-btn" onClick={() => multiMenuSet("Team")}>
-              <span className="far fa-plus" />
-            </div>
-          </li>
-          <li>
-            <Link legacyBehavior href="contact">
-              Contact us
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="pricing">
-              Pricing Plan
-            </Link>
-          </li>
-          <li>
-            <Link legacyBehavior href="404">
-              404 error
-            </Link>
-          </li>
-        </ul>
-        <div className="dropdown-btn" onClick={() => activeMenuSet("pages")}>
-          <span className="far fa-plus" />
-        </div>
-      </li> */}
       <li className="dropdown">
         <a href="/services" className="font-fam">Our Services</a>
         <ul style={activeLi("Services")}>
@@ -334,7 +118,7 @@ const MobileMenu = () => {
             </Link>
           </li>
           <li className="font-fam">
-            <Link legacyBehavior href="/ac-maintenanceandrepair">
+            <Link legacyBehavior href="/ac-maintenance-repair">
             AC Maintenance and Repair
             </Link>
           </li>
@@ -344,12 +128,12 @@ const MobileMenu = () => {
             </Link>
           </li>
           <li className="font-fam">
-            <Link legacyBehavior href="interior-fitout">
+            <Link legacyBehavior href="cctv-security-system">
             CCTV Security Systems
             </Link>
           </li>
           <li className="font-fam">
-            <Link legacyBehavior href="interior-fitout">
+            <Link legacyBehavior href="digital-display-signages">
             Digital Displays & Signages
             </Link>
           </li>
@@ -369,33 +153,10 @@ const MobileMenu = () => {
         </Link>
       </li>
       <li className="dropdown font-fam">
-        <a href="contact">Contact Us</a>
+        <a href="contact-us">Contact Us</a>
       </li>
     </ul>
   );
 };
 
-const SingleMenu = () => {
-  return (
-    <ul className="navigation onepage clearfix">
-      <li>
-        <a href="#home">Home</a>
-      </li>
-      <li>
-        <a href="#about">about</a>
-      </li>
-      <li>
-        <a href="#services">services</a>
-      </li>
-      <li>
-        <a href="#projects">project</a>
-      </li>
-      <li>
-        <a href="#pricing">pricing</a>
-      </li>
-      <li>
-        <a href="#news">news</a>
-      </li>
-    </ul>
-  );
-};
+
