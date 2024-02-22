@@ -1131,7 +1131,7 @@ a.theme-btn.style-three {
 /*** Scroll Top style ***/
 .scroll-top {
   position: fixed;
-  bottom: 69px;
+  bottom: 115px;
   right: 13px;
   width: 40px;
   height: 40px;
@@ -5717,7 +5717,7 @@ h6,
   font-size: 115px;
   font-weight: 700;
   letter-spacing: -2px;
-  color: #222;
+  color: #112654;
   text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5771,7 +5771,7 @@ h6,
 .headline-text > span span {
   color: transparent;
   -webkit-text-stroke: 1.5px;
-  -webkit-text-stroke-color: #333;
+  -webkit-text-stroke-color: #f15a29;
 }
 @media only screen and (min-width: 1400px) {
   .headline-text.style-two {

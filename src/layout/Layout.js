@@ -5,6 +5,7 @@ import VideoPopup from "../components/VideoPopup";
 import { animation, sidebarClick } from "../utils";
 import ScrollTop from "./ScrollTop";
 import Whatsapp from "./Whatsapp";
+import CallButton from "./Phone";
 import Footer from "./footer/Footer3";
 import Header from "./header/Header";
 import SideBar from "./header/SideBar";
@@ -24,6 +25,7 @@ const Layout = ({ children, header, footer3, singleMenu }) => {
         {children}
         <Footer footer={footer3} />
         <ScrollTop />
+        <CallButton />
         <Whatsapp />
       </div>
     </Fragment>

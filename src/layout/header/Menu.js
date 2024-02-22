@@ -48,22 +48,22 @@ const DaskTopMenu = () => {
             </Link>
           </li>
           <li>
-            <Link legacyBehavior href="painting-epoxy">
+            <Link legacyBehavior href="/painting-epoxy">
             Painting and Epoxy
             </Link>
           </li>
           <li>
-            <Link legacyBehavior href="cctv-security-system">
+            <Link legacyBehavior href="/cctv-security-system">
             CCTV Security Systems
             </Link>
           </li>
           <li>
-            <Link legacyBehavior href="digital-display-signages">
+            <Link legacyBehavior href="/digital-display-signages">
             Digital Displays & Signages
             </Link>
           </li>
           <li>
-            <Link legacyBehavior href="interior-fitout">
+            <Link legacyBehavior href="/display-fixtures-retail-exhibitions">
             Display Fixtures for Retail & Exhibitions
             </Link>
           </li>
@@ -73,12 +73,12 @@ const DaskTopMenu = () => {
         </div>
       </li>
       <li>
-        <Link legacyBehavior href="about">
+        <Link legacyBehavior href="/about">
           About Us
         </Link>
       </li>
       <li>
-        <Link legacyBehavior href="contact-us">
+        <Link legacyBehavior href="/contact-us">
           Contact Us
         </Link>
       </li>
@@ -93,17 +93,13 @@ const MobileMenu = () => {
       setActiveMenu(activeMenu === value ? "" : value),
     activeLi = (value) =>
       value === activeMenu ? { display: "block" } : { display: "none" };
-  const multiMenuSet = (value) =>
-      setMultiMenu(multiMenu === value ? "" : value),
-    multiMenuActiveLi = (value) =>
-      value === multiMenu ? { display: "block" } : { display: "none" };
   return (
     <ul className="navigation d-block d-lg-none mobile-menu">
       <li className="dropdown">
-        <a href="/services" className="font-fam">Our Services</a>
+        <a href="/our-services" className="font-fam">Our Services</a>
         <ul style={activeLi("Services")}>
         <li className="font-fam">
-            <Link legacyBehavior href="/our-services">
+            <Link legacyBehavior href="/interior-fitout">
             Interior Fit-Out and Renovation
             </Link>
           </li>
@@ -128,17 +124,17 @@ const MobileMenu = () => {
             </Link>
           </li>
           <li className="font-fam">
-            <Link legacyBehavior href="cctv-security-system">
+            <Link legacyBehavior href="/cctv-security-system">
             CCTV Security Systems
             </Link>
           </li>
           <li className="font-fam">
-            <Link legacyBehavior href="digital-display-signages">
+            <Link legacyBehavior href="/digital-display-signages">
             Digital Displays & Signages
             </Link>
           </li>
           <li className="font-fam">
-            <Link legacyBehavior href="interior-fitout">
+            <Link legacyBehavior href="/display-fixtures-retail-exhibitions">
             Display Fixtures for Retail & Exhibitions
             </Link>
           </li>
@@ -148,12 +144,12 @@ const MobileMenu = () => {
         </div>
       </li>
       <li className="font-fam">
-        <Link legacyBehavior href="about">
+        <Link legacyBehavior href="/about">
           About Us
         </Link>
       </li>
       <li className="dropdown font-fam">
-        <a href="contact-us">Contact Us</a>
+        <a href="/contact-us">Contact Us</a>
       </li>
     </ul>
   );

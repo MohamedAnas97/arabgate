@@ -61,20 +61,15 @@ const AboutUs = () => {
 
             <div className="hero-social">
               <a
-                href="https://www.facebook.com/profile.php?id=100091663875681"
+                href="https://www.facebook.com/"
                 target="_blank"
                
               >
                 <i className="fab fa-facebook-f" /> <span>Facebook</span>
               </a>
+             
               <a
-                href="https://www.linkedin.com/company/g-g-innovations/"
-                target="_blank"
-              >
-                <i className="fab fa-linkedin-in" /> <span>Linkedin</span>
-              </a>
-              <a
-                href="https://www.instagram.com/gnginnovations/"
+                href="https://www.instagram.com/"
                 target="_blank"
               >
                 <i className="fab fa-instagram" /> <span>Instagram</span>
@@ -83,11 +78,17 @@ const AboutUs = () => {
                 className="a-icon cursor"
                 onClick={() =>
                   window.open(
-                    "https://www.youtube.com/channel/UCZ8YJt8gCmvVIt7-IZtRevQ/"
+                    "https://www.youtube.com/"
                   )
                 }
               >
                 <i className="fab fa-youtube" /> <span>Youtube</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+              >
+                <i className="fab fa-tiktok" /> <span>Tiktok</span>
               </a>
             </div>
           </div>

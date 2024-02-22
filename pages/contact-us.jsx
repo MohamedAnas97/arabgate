@@ -5,14 +5,12 @@ import ContactLayout from "@/src/components/contactFooter";
 const contactDetails = () => {
   return (
     <Layout>
-      {/* Page Banner Start */}
       <PageBanner pageName={"Contact Us"} />
-      {/* Page Banner End */}
-      <div className="mt-80 mb-80">
+      <div className="mt-80 rmt-40 mb-80 rmb-40">
         <ContactLayout />
       </div>
-      <div className="contact-page-map mb-70 rpb-60 wow fadeInUp delay-0-2s">
-        <div className="container-fluid">
+      <div className="contact-page-map mb-70 rmb-20 rpb-40 wow fadeInUp delay-0-2s">
+        <div className="container container-1290">
           <div className="our-location">
             <iframe
               src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Grosvenor%20Business%20Tower+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"

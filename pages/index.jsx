@@ -2,15 +2,10 @@ import Home5Slider from "@/src/components/sliders/Home5Slider";
 import Layout from "@/src/layout/Layout";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import dynamic from "next/dynamic";
 import Link from "next/link";
 import ReactPlayer from "react-player";
 import ContactLayout from "@/src/components/contactFooter";
-// import { Swiper, SwiperSlide } from "swiper/react";
 
-const Counter = dynamic(() => import("@/src/components/Counter"), {
-  ssr: false,
-});
 const index5 = () => {
   const responsive = {
     superLargeDesktop: {
@@ -39,7 +34,6 @@ const index5 = () => {
   return (
     <Layout footer={5} header={5}>
       <Home5Slider />
-      {/* Service Box start */}
       <section className="what-we-offer pb-90 rpb-70">
         <div className="container container-1290">
           <div className="section-title text-center mt-60 mb-40 wow fadeInUp delay-0-2s">
@@ -54,7 +48,7 @@ const index5 = () => {
                   <img src="/assets/images/arab/interior.png" alt="" />
                 </div>
                 <h4 className="font-fam h4-font">
-                  <Link href="service-details">
+                  <Link href="/interior-fitout">
                     Interior Fit-Out and Renovation
                   </Link>
                 </h4>
@@ -66,7 +60,7 @@ const index5 = () => {
                   <img src="/assets/images/arab/electric-service.png" alt="" />
                 </div>
                 <h4 className="font-fam h4-font">
-                  <Link href="service-details">Electrical Services</Link>
+                  <Link href="/electrical-services">Electrical Services</Link>
                 </h4>
               </div>
             </div>
@@ -76,7 +70,7 @@ const index5 = () => {
                   <img src="/assets/images/arab/plumbing.png" alt="" />
                 </div>
                 <h4 className="font-fam h4-font">
-                  <Link href="service-details">Plumbing Services</Link>
+                  <Link href="/plumbing-services">Plumbing Services</Link>
                 </h4>
               </div>
             </div>
@@ -86,7 +80,7 @@ const index5 = () => {
                   <img src="/assets/images/arab/maintenance.png" alt="" />
                 </div>
                 <h4 className="font-fam h4-font">
-                  <Link href="service-details">
+                  <Link href="/ac-maintenance-repair">
                     HVAC Maintenance and Repair
                   </Link>
                 </h4>
@@ -98,7 +92,7 @@ const index5 = () => {
                   <img src="/assets/images/arab/painting-roll.png" alt="" />
                 </div>
                 <h4 className="font-fam h4-font">
-                  <Link href="service-details">Painting and Epoxy</Link>
+                  <Link href="/painting-epoxy">Painting and Epoxy</Link>
                 </h4>
               </div>
             </div>
@@ -109,7 +103,9 @@ const index5 = () => {
                 </div>
 
                 <h4 className="font-fam h4-font">
-                  <Link href="service-details">CCTV Security Systems</Link>
+                  <Link href="/cctv-security-system">
+                    CCTV Security Systems
+                  </Link>
                 </h4>
               </div>
             </div>
@@ -119,7 +115,7 @@ const index5 = () => {
                   <img src="/assets/images/arab/display.png" alt="" />
                 </div>
                 <h4 className="font-fam h4-font">
-                  <Link href="service-details">
+                  <Link href="/digital-display-signages">
                     Digital Displays & Signages
                   </Link>
                 </h4>
@@ -131,7 +127,7 @@ const index5 = () => {
                   <img src="/assets/images/arab/in-store-display.png" alt="" />
                 </div>
                 <h4 className="font-fam h4-font">
-                  <Link href="service-details">
+                  <Link href="/display-fixtures-retail-exhibitions">
                     Display Fixtures for Retail & Exhibitions
                   </Link>
                 </h4>
@@ -157,12 +153,12 @@ const index5 = () => {
       </div>
 
       {/* Team Area start */}
-      <section className="team-area pt-40 rpt-60 pb-100 rpb-70">
+      <section className="team-area pt-40 rpt-10 pb-100 rpb-30">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <div className="section-title text-center mb-55 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-20 font-fam ">Our Services</span>
+                <span className="sub-title  font-fam ">Our Services</span>
                 <h2 className="text-color h2-font font-fam">
                   Quality Service is Our Guarantee
                 </h2>
@@ -192,7 +188,7 @@ const index5 = () => {
                     industrial buildings. It includes wiring, lighting, outlets,
                     circuit breakers, and other electrical components
                   </h6>
-                  <Link href="/interior-fitout">
+                  <Link href="/electrical-services">
                     <span>
                       <a className="read-more1 font-fam">
                         More Details
@@ -223,7 +219,7 @@ const index5 = () => {
                     against corrosion. Epoxy coatings are often used for
                     flooring and provide durability and chemical resistance.
                   </h6>
-                  <Link href="/interior-fitout">
+                  <Link href="/plumbing-services">
                     <span>
                       <a className="read-more1 font-fam">
                         More Details
@@ -254,7 +250,7 @@ const index5 = () => {
                     against corrosion. Epoxy coatings are often used for
                     flooring and provide durability and chemical resistance.
                   </h6>
-                  <Link href="/interior-fitout">
+                  <Link href="/painting-epoxy">
                     <span>
                       <a className="read-more1 font-fam">
                         More Details
@@ -284,7 +280,7 @@ const index5 = () => {
                     and security purposes. Installation and maintenance of CCTV
                     systems help monitor and secure premises.
                   </h6>
-                  <Link href="/interior-fitout">
+                  <Link href="/cctv-security-system">
                     <span>
                       <a className="read-more1 font-fam">
                         More Details
@@ -300,7 +296,6 @@ const index5 = () => {
                 <div className="image">
                   <img src="assets/images/arab/h10.jpg" alt="image" />
                   <Link href="/contact-us">
-                    {" "}
                     <div className="social-style-two">
                       <button className="button-color font-fam">
                         Book Now
@@ -318,12 +313,15 @@ const index5 = () => {
                     installing fixtures, flooring, walls, ceilings, and other
                     interior elements.
                   </h6>
-                  <span>
-                    <a className="read-more1 font-fam" href="/interior-fitout">
-                      More Details
-                      <i className="far fa-arrow-right" />
-                    </a>
-                  </span>
+
+                  <Link href="/interior-fitout">
+                    <span>
+                      <a className="read-more1 font-fam">
+                        More Details
+                        <i className="far fa-arrow-right" />
+                      </a>
+                    </span>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -349,7 +347,7 @@ const index5 = () => {
                     This service involves maintaining, repairing, and installing
                     heating and cooling systems in buildings.
                   </h6>
-                  <Link href="/interior-fitout">
+                  <Link href="/ac-maintenance-repair">
                     <span>
                       <a className="read-more1 font-fam">
                         More Details
@@ -381,7 +379,7 @@ const index5 = () => {
                     signage solutions for advertising, information display, and
                     branding purposes.
                   </h6>
-                  <Link href="/interior-fitout">
+                  <Link href="/digital-display-signages">
                     <span>
                       <a className="read-more1 font-fam">
                         More Details
@@ -413,7 +411,7 @@ const index5 = () => {
                     fixtures for retail stores, exhibitions, trade shows, and
                     other commercial spaces to showcase products effectively.
                   </h6>
-                  <Link href="/interior-fitout">
+                  <Link href="/display-fixtures-retail-exhibitions">
                     <span>
                       <a className="read-more1 font-fam">
                         More Details
@@ -445,10 +443,12 @@ const index5 = () => {
                   gate for hassle-free maintenance, ensuring your spaces remain
                   in optimal condition.
                 </p>
-                <Link legacyBehavior href="/about">
-                  <a className="read-more font-fam mt-10">
-                    Learn More <i className="far fa-arrow-right" />
-                  </a>
+                <Link href="/about">
+                  <span>
+                    <a className="read-more font-fam mt-10">
+                      Learn More <i className="far fa-arrow-right" />
+                    </a>
+                  </span>
                 </Link>
               </div>
             </div>
