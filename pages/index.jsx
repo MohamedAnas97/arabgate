@@ -171,7 +171,7 @@ const index5 = () => {
             <div className="col-xl-3 col-lg-4 col-sm-6 ">
               <div className="team-member style-three wow fadeInUp delay-0-4s ">
                 <div className="image">
-                  <img src="assets/images/arab/h2.jpg" alt="image" />
+                  <img src="assets/images/arab/h2.png" alt="image" />
                   <Link href="/contact-us">
                     <div className="social-style-two">
                       <button className="button-color font-fam">
@@ -202,7 +202,7 @@ const index5 = () => {
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member style-three wow fadeInUp delay-0-6s">
                 <div className="image">
-                  <img src="assets/images/arab/h3.jpg" alt="image" />
+                  <img src="assets/images/arab/h4.png" alt="image" />
                   <Link href="/contact-us">
                     <div className="social-style-two">
                       <button className="button-color font-fam">
@@ -233,7 +233,7 @@ const index5 = () => {
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member style-three wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/arab/h9.jpg" alt="image" />
+                  <img src="assets/images/arab/h8.png" alt="image" />
                   <Link href="/contact-us">
                     <div className="social-style-two">
                       <button className="button-color font-fam">
@@ -264,7 +264,7 @@ const index5 = () => {
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member style-three wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/arab/h5.jpg" alt="image" />
+                  <img src="assets/images/arab/h88.png" alt="image" />
                   <Link href="/contact-us">
                     <div className="social-style-two">
                       <button className="button-color font-fam">
@@ -294,7 +294,7 @@ const index5 = () => {
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member style-three wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/arab/h10.jpg" alt="image" />
+                  <img src="assets/images/arab/h7.png" alt="image" />
                   <Link href="/contact-us">
                     <div className="social-style-two">
                       <button className="button-color font-fam">
@@ -329,7 +329,7 @@ const index5 = () => {
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member style-three wow fadeInUp delay-0-8s">
                 <div className="image">
-                  <img src="assets/images/arab/h6.jpg" alt="image" />
+                  <img src="assets/images/arab/h1.png" alt="image" />
                   <Link href="/contact-us">
                     <div className="social-style-two">
                       <button className="button-color font-fam">
@@ -361,7 +361,7 @@ const index5 = () => {
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member style-three wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/arab/h7.jpg" alt="image" />
+                  <img src="assets/images/arab/h5.png" alt="image" />
                   <Link href="/contact-us">
                     <div className="social-style-two">
                       <button className="button-color font-fam">
@@ -393,7 +393,7 @@ const index5 = () => {
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member style-three wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/arab/h8.jpg" alt="image" />
+                  <img src="assets/images/arab/h6.png" alt="image" />
                   <Link href="/contact-us">
                     <div className="social-style-two">
                       <button className="button-color font-fam">

@@ -25,7 +25,7 @@ const Layout = ({ children, header, footer3, singleMenu }) => {
         {children}
         <Footer footer={footer3} />
         <ScrollTop />
-        <CallButton />
+        <CallButton phoneNumber="+971585443090" />
         <Whatsapp />
       </div>
     </Fragment>

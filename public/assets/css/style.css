@@ -1131,7 +1131,7 @@ a.theme-btn.style-three {
 /*** Scroll Top style ***/
 .scroll-top {
   position: fixed;
-  bottom: 115px;
+  bottom: 130px;
   right: 13px;
   width: 40px;
   height: 40px;
@@ -1142,11 +1142,14 @@ a.theme-btn.style-three {
   cursor: pointer;
   line-height: 40px;
   border-radius: 5px;
-  background: #f15a29;
+  background: #030e28;
   -webkit-animation: pulse 2s infinite;
   animation: pulse 2s infinite;
 }
-
+.animate {
+  -webkit-animation: pulse 3s infinite;
+  animation: pulse 3s infinite;
+}
 /* Text White */
 .text-white *,
 .text-white a,

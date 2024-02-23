@@ -4,16 +4,21 @@ const CallButton = ({ phoneNumber }) => {
   };
 
   return (
-    <div style={{
+    <div
+      style={{
         position: "fixed",
         right: "10px",
-        bottom: "60px",
+        bottom: "70px",
         zIndex: 20,
-      }} onClick={handleClick} >
+        cursor: "pointer",
+      }}
+      onClick={handleClick}
+      className="animate"
+    >
       <img
-        src="/assets/images/arab2/whatsapp.png"
+        src="/assets/images/arab/phone-call.png"
         alt=""
-        style={{ height: "50px" }}
+        style={{ height: "45px" }}
       />
     </div>
   );
