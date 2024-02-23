@@ -7,7 +7,7 @@ const CallButton = ({ phoneNumber }) => {
     <div
       style={{
         position: "fixed",
-        right: "10px",
+        right: "12px",
         bottom: "70px",
         zIndex: 20,
         cursor: "pointer",
@@ -18,7 +18,7 @@ const CallButton = ({ phoneNumber }) => {
       <img
         src="/assets/images/arab/phone-call.png"
         alt=""
-        style={{ height: "45px" }}
+        style={{ height: "46px" }}
       />
     </div>
   );

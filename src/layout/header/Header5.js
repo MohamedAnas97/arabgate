@@ -77,7 +77,7 @@ const Header5 = ({ singleMenu }) => {
               <div className="menu-sidebar">
                 <button>
                   <img
-                    src="assets/images/icons/message-content.png"
+                    src="assets/images/arab/chat.png"
                     alt="Toggler"
                   />
                 </button>

@@ -25,17 +25,13 @@ const DefaultHeader = ({ singleMenu }) => {
             </div>
             <div className="nav-outer ms-lg-auto clearfix">
               <Nav singleMenu={singleMenu} />
-           
             </div>
-     
+
             <div className="menu-btns">
               {/* menu sidbar */}
               <div className="menu-sidebar">
                 <button>
-                  <img
-                    src="assets/images/icons/message-content.png"
-                    alt="Toggler"
-                  />
+                  <img src="assets/images/arab/chat.png" alt="Toggler" />
                 </button>
               </div>
             </div>

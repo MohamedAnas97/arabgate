@@ -1142,13 +1142,11 @@ a.theme-btn.style-three {
   cursor: pointer;
   line-height: 40px;
   border-radius: 5px;
-  background: #030e28;
-  -webkit-animation: pulse 2s infinite;
-  animation: pulse 2s infinite;
+  background: #f15a29;
 }
 .animate {
-  -webkit-animation: pulse 3s infinite;
-  animation: pulse 3s infinite;
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse 2s infinite;
 }
 /* Text White */
 .text-white *,
@@ -4694,7 +4692,7 @@ h6,
   text-align: center;
 }
 .menu-sidebar button img {
-  margin-top: -2px;
+  margin-top: -1px;
   height: 28px;
 }
 

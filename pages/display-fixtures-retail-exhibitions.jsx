@@ -50,97 +50,25 @@ const DisplayFixtures = () => {
   const [active, setActive] = useState("collapse0");
   return (
     <Layout>
-      <PageBanner pageName={"Display Fixtures for Retail and Exhibitions"} />
+      <PageBanner pageName={"Fixtures for Retail and Exhibitions"} />
       <div className="container container-1290">
         <div className="row">
           <div className="col-lg-12 mt-30">
             <h5 className="fadeInUp delay-0-2s wow mt-30 text-color font-fam h5-font">
-              e design & Fabricate on a variety of materials like paper,
-              sticker, duratran, transparent sticker, canvas, banner, fabric
+              We design & Fabricate on a variety of materials like paper,
+              sticker, dura-tran, transparent sticker, canvas, banner, fabric
               etc. and have them finished on the ideal mounting media like foam
               board, forex, acrylic and MDF etc. to fulfill the requirements for
               retail product fixtures, setups for events and exhibitions.
             </h5>
           </div>
-          <div className="about-content wow fadeInUp delay-0-4s">
-            <div className="section-title pt-20">
-              <h4 className="text-color font-fam h4-font">Indoor Displays</h4>
-            </div>
-            <div className="content">
-              <ul className="list-style-three ">
-                <li className="text-color font-fam h5-font">
-                  Our full-color indoor LED solutions are sources from the best
-                  to display vibrant content that is guaranteed to turn heads.
-                </li>
-                <li className="text-color font-fam h5-font">
-                  Our solutions include information displays, pylons, large
-                  in-store marketing displays and more, all which help to engage
-                  customer interest, sell and create an impact in today’s busy
-                  consumer environments.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="about-content wow fadeInUp delay-0-4s">
-            <div className="section-title pt-20">
-              <h4 className="text-color font-fam h4-font">Outdoor Displays</h4>
-            </div>
-            <div className="content">
-              <ul className="list-style-three ">
-                <li className="text-color font-fam h5-font">
-                  Built to withstand extreme climate conditions of GCC, our
-                  outdoor LED screens provide the perfect viewing solutions for
-                  large areas and arenas.
-                </li>
-                <li className="text-color font-fam h5-font">
-                  Captivate the electrifying energy of a stadium on large
-                  multi-screens or provide high-definition displays to infuse
-                  life into live concerts and shows.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="about-content wow fadeInUp delay-0-4s">
-            <div className="section-title pt-20">
-              <h4 className="text-color font-fam h4-font">
-                Interactive Screens for Schools and Business
-              </h4>
-            </div>
-            <div className="content">
-              <ul className="list-style-three ">
-                <li className="text-color font-fam h5-font">
-                  Classrooms and workplaces are getting smarter, quicker-paced
-                  and more efficient.
-                </li>
-                <li className="text-color font-fam h5-font">
-                  We have partnered with top-notch global solutions providers to
-                  design products for schools, universities and other education
-                  providers, as well as for other progressive businesses across
-                  the UAE.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="about-content wow fadeInUp delay-0-4s">
-            <div className="section-title pt-20">
-              <h4 className="text-color font-fam h4-font">
-                Digital Signage Software
-              </h4>
-            </div>
-            <div className="content">
-              <ul className="list-style-three ">
-                <li className="text-color font-fam h5-font">
-                  Classrooms and workplaces are getting smarter, quicker-paced
-                  and more efficient.
-                </li>
-                <li className="text-color font-fam h5-font">
-                  We have partnered with top-notch global solutions providers to
-                  design products for schools, universities and other education
-                  providers, as well as for other progressive businesses across
-                  the UAE.
-                </li>
-              </ul>
-            </div>
+          <div className="col-lg-12 mt-30">
+            <h5 className="fadeInUp delay-0-2s wow mt-30 text-color font-fam h5-font">
+              We specialize in elevating your retail space through expert
+              gondola and wall display installations. With a keen eye for design
+              and precision, our skilled team ensures your merchandise is
+              showcased effectively.
+            </h5>
           </div>
         </div>
       </div>
@@ -153,59 +81,59 @@ const DisplayFixtures = () => {
             <SwiperSlide>
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/arab2/sig1.jpg" alt="" />
+                  <img src="assets/images/arab2/f1.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
               <div className="project-item style-five wow fadeInUp delay-0-4s">
                 <div className="image">
-                  <img src="assets/images/arab2/sig2.jpg" alt="" />
+                  <img src="assets/images/arab2/f2.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
               <div className="project-item style-five wow fadeInUp delay-0-6s">
                 <div className="image">
-                  <img src="assets/images/arab2/sig3.jpg" alt="" />
+                  <img src="assets/images/arab2/f3.jpg" alt="" />
                 </div>
               </div>{" "}
             </SwiperSlide>
             <SwiperSlide>
               <div className="project-item style-five wow fadeInUp delay-0-8s">
                 <div className="image">
-                  <img src="assets/images/arab2/sig4.jpg" alt="" />
+                  <img src="assets/images/arab2/f4.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
               <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
-                  <img src="assets/images/arab2/sig5.jpg" alt="" />
+                  <img src="assets/images/arab2/f1.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-2s">
+              <div className="project-item style-five wow fadeInUp delay-0-4s">
                 <div className="image">
-                  <img src="assets/images/arab2/sig6.jpg" alt="" />
+                  <img src="assets/images/arab2/f2.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-2s">
+              <div className="project-item style-five wow fadeInUp delay-0-6s">
                 <div className="image">
-                  <img src="assets/images/arab2/sig7.jpg" alt="" />
+                  <img src="assets/images/arab2/f3.jpg" alt="" />
                 </div>
-              </div>
-            </SwiperSlide>{" "}
-            <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-2s">
-                <div className="image">
-                  <img src="assets/images/arab2/sig8.jpg" alt="" />
-                </div>
-              </div>
+              </div>{" "}
             </SwiperSlide>
+            <SwiperSlide>
+              <div className="project-item style-five wow fadeInUp delay-0-8s">
+                <div className="image">
+                  <img src="assets/images/arab2/f4.jpg" alt="" />
+                </div>
+              </div>
+            </SwiperSlide>{" "}
           </Swiper>
           <div className="work-gallery-controls">
             <button className="work-gallery-prev slick-arrow">
