@@ -1,10 +1,8 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 import YgencyAccordion from "@/src/components/YgencyAccordion";
-// import Link from "next/link";
 import { sliderProps } from "@/src/sliderProps";
 import ContactLayout from "@/src/components/contactFooter";
-// import { Nav, Tab } from "react-bootstrap";
 import { Accordion } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ContactForm1 from "@/src/components/ContactForm1";
@@ -13,29 +11,43 @@ const CctvService = () => {
   const accordionData = [
     {
       id: 1,
-      title: "How do we assess the quality of the company's work?",
+      title: "How can your CCTV security systems enhance the safety and security of my property?",
       content:
-        "There are a number of ways through which our work can be verified and assessed, you can do a thorough portfolio examination, check our testimonials and client references, check our reviews and ratings online, inquire about our     team’s technical expertise and certifications, check out our communication and     project management practices and policies, inquire about our post-launch     support and maintenance policies and most of all learn more about us and our     knack for innovation and future-readiness",
+        "Our CCTV security systems provide round-the-clock surveillance, deterring potential threats and enabling swift response to any suspicious activity, ensuring your property remains safe and secure at all times.",
     },
     {
       id: 2,
       title:
-        " What makes your company unique in the software development industry?",
+        "Will the installation of your CCTV systems disrupt my daily activities or business operations?",
       content:
-        "With unparalleled technical expertise, our team of skilled developers, designers,  and strategists have diverse industry experience. We understand your unique business requirements and create tailored software solutions aligned with your  goals.",
+        "Our professional installation team works efficiently and minimizes disruptions, ensuring a seamless transition to enhanced security measures without interrupting your daily routines or business operations.",
     },
     {
       id: 3,
-      title: "How do you handle project timelines and deadlines?",
+      title: "Can I easily access and manage footage from your CCTV systems?",
       content:
-        "Through clear communication between team members, using project management tools and tracking progress and making adjustments through rigorous testing.",
+        "Absolutely! Our user-friendly interfaces allow you to conveniently access and manage footage from your CCTV systems remotely, giving you peace of mind and control over your property's security from anywhere, anytime.",
     },
     {
       id: 4,
       title:
-        "	What is Agile methodology, and do you follow it in your projects?",
+        "	How do you ensure the reliability and effectiveness of your CCTV systems over time?",
       content:
-        "Agile methodology is a form of project management which prioritises cross-functional collaboration and continuous improvement by dividing projects into smaller parts and phases which helps teams evaluate projects constantly and detect errors as well as plan and execute them effectively.",
+        "We utilize top-quality components and conduct thorough testing to ensure the reliability and effectiveness of our CCTV systems. Additionally, we provide ongoing support and maintenance to keep your system functioning optimally for years to come.",
+    },
+    {
+      id: 5,
+      title:
+        "	Can your CCTV systems be tailored to meet my specific security needs?",
+      content:
+        "Yes, our CCTV systems are highly customizable to accommodate your unique security requirements. Whether you need additional cameras, specialized features, or integration with existing security systems, we can tailor a solution that meets your needs perfectly.",
+    },
+    {
+      id: 6,
+      title:
+        " What measures do you take to protect customer privacy with your CCTV systems?",
+      content:
+        " Customer privacy is a top priority for us. Our CCTV systems are designed and implemented with strict adherence to privacy regulations. We employ advanced encryption methods, access controls, and clear signage to ensure the protection of customer privacy at all times.",
     },
   ];
   const [active, setActive] = useState("collapse0");

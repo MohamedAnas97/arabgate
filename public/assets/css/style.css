@@ -12053,3 +12053,36 @@ blockquote .blockquote-footer:before {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+.call-now-text {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 2px 15px 2px 8px;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  background-color: #007bff;
+  color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  opacity: 0; 
+}
+
+/* Animation for text */
+@keyframes textAnimation {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.call-now-text.visible {
+  opacity: 1;
+  animation: textAnimation 4s infinite; 
+}
+
+.phone-icon {
+  height: 48px;
+  width: 48px;
+  margin-left: 0px;
+  background: none;
+  padding: 0;
+  position: relative;
+  left: -8px;
+}

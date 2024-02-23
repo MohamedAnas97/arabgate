@@ -10,41 +10,41 @@ const DisplayFixtures = () => {
   const accordionData = [
     {
       id: 1,
-      title: " What types of electrical services do you offer?",
+      title: "What materials do you use for designing and fabricating display fixtures?",
       content:
-        "We offer a wide range of electrical services, including installation, repair, maintenance, and upgrades for residential, commercial, and industrial properties.",
+        "We work with a variety of materials including paper, sticker, dura-tran, transparent sticker, canvas, banner, fabric, and more. These materials are finished on ideal mounting media such as foam board, forex, acrylic, and MDF to meet the specific requirements of retail product fixtures, events, and exhibitions.",
     },
     {
       id: 2,
-      title: "Are your electricians licensed and insured?",
+      title: "How do your display fixtures enhance retail spaces?",
       content:
-        "Yes, all our electricians are fully licensed, insured, and highly trained professionals with extensive experience in the field. You can trust us to handle your electrical needs safely and efficiently.",
+        "Our display fixtures are designed to elevate retail spaces by effectively showcasing merchandise. Whether it's gondola displays or wall installations, our expert team ensures that your products are displayed attractively, increasing visibility and driving sales.",
     },
     {
       id: 3,
       title:
-        "How do you ensure electrical safety during installations and repairs?",
+        "What sets your gondola and wall display installations apart?",
       content:
-        "Safety is our top priority. We strictly adhere to all electrical codes and regulations, use proper safety equipment, and follow industry best practices to ensure the safety of our clients and their properties.",
+        " Our skilled team possesses a keen eye for design and precision, ensuring that every gondola and wall display installation is executed with utmost care and attention to detail. We understand the importance of effectively showcasing merchandise and strive to exceed expectations with our installations.",
     },
     {
       id: 4,
-      title: "Do you offer emergency electrical services?",
+      title: "Can you customize display fixtures according to specific branding requirements?",
       content:
-        "Yes, we understand that electrical emergencies can happen at any time. That's why we offer 24/7 emergency electrical services to address urgent issues promptly and minimize disruption to your home or business.",
+        "Absolutely! We understand the importance of branding in retail environments. Our team works closely with clients to customize display fixtures that align with their brand identity, ensuring consistency and coherence throughout the retail space.",
     },
     {
       id: 5,
       title:
-        "Can you help with energy-efficient lighting solutions or electrical upgrades?",
+        "How do you ensure the durability and longevity of your display fixtures?",
       content:
-        "Absolutely! We specialize in energy-efficient lighting solutions and can recommend and install LED lighting, smart lighting controls, and other energy-saving technologies to help you reduce your energy consumption and save on utility bills.",
+        "We prioritize quality and durability in our display fixtures. By using high-quality materials and employing expert fabrication techniques, we ensure that our fixtures are built to withstand the rigors of retail environments and exhibitions, maintaining their appearance and functionality over time.",
     },
     {
       id: 6,
-      title: "How do you handle electrical inspections and code compliance?",
+      title: "Do you provide installation services for display fixtures?",
       content:
-        "We conduct thorough electrical inspections to identify any issues and ensure compliance with local electrical codes and regulations. If any deficiencies are found, we provide recommendations and solutions to bring your electrical system up to code.",
+        "Yes, our services include not only designing and fabricating display fixtures but also professional installation. Our experienced team ensures that the installation process is seamless, minimizing disruption to your retail operations or exhibition setup.",
     },
   ];
   const [active, setActive] = useState("collapse0");

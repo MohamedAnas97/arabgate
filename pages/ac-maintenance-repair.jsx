@@ -13,29 +13,42 @@ const AcMaintenance = () => {
   const accordionData = [
     {
       id: 1,
-      title: "How do we assess the quality of the company's work?",
+      title: "What HVAC and AC maintenance services do you offer?",
       content:
-        "There are a number of ways through which our work can be verified and assessed, you can do a thorough portfolio examination, check our testimonials and client references, check our reviews and ratings online, inquire about our     team’s technical expertise and certifications, check out our communication and     project management practices and policies, inquire about our post-launch     support and maintenance policies and most of all learn more about us and our     knack for innovation and future-readiness",
+        "We offer comprehensive HVAC and AC maintenance services, including regular inspections, cleaning, lubrication, filter replacement, and performance testing to ensure optimal functionality and efficiency of your heating and cooling systems.",
     },
     {
       id: 2,
       title:
-        " What makes your company unique in the software development industry?",
+        "How often should I schedule maintenance for my HVAC and AC systems?",
       content:
-        "With unparalleled technical expertise, our team of skilled developers, designers,  and strategists have diverse industry experience. We understand your unique business requirements and create tailored software solutions aligned with your  goals.",
+        " It's recommended to schedule maintenance for your HVAC and AC systems at least once a year. Regular maintenance helps prevent breakdowns, extends the lifespan of your equipment, and ensures efficient operation throughout the year.",
     },
     {
       id: 3,
-      title: "How do you handle project timelines and deadlines?",
+      title: " Do you offer emergency HVAC and AC repair services?",
       content:
-        "Through clear communication between team members, using project management tools and tracking progress and making adjustments through rigorous testing.",
+        "Yes, we understand that HVAC and AC emergencies can occur unexpectedly. That's why we offer 24/7 emergency repair services to address urgent issues promptly and restore comfort to your home or business.",
     },
     {
       id: 4,
       title:
-        "	What is Agile methodology, and do you follow it in your projects?",
+        "What are the signs that my HVAC or AC system needs repair?",
       content:
-        "Agile methodology is a form of project management which prioritises cross-functional collaboration and continuous improvement by dividing projects into smaller parts and phases which helps teams evaluate projects constantly and detect errors as well as plan and execute them effectively.",
+        "Signs that your HVAC or AC system may need repair include strange noises, reduced airflow, uneven cooling or heating, frequent cycling, and unusually high energy bills. If you notice any of these signs, it's best to have a professional technician inspect your system.",
+    },
+    {
+      id: 5,
+      title: "How do you ensure the quality of your HVAC and AC repair services?",
+      content:
+        "Our team of experienced technicians undergoes regular training and stays updated on the latest HVAC and AC repair techniques and technologies. We use advanced diagnostic tools and high-quality replacement parts to ensure lasting repairs and customer satisfaction.",
+    },
+    {
+      id: 6,
+      title:
+        "Can you help me improve the energy efficiency of my HVAC and AC systems?",
+      content:
+        "Absolutely! As part of our maintenance and repair services, we can assess the energy efficiency of your HVAC and AC systems and provide recommendations for improvements, such as upgrading to energy-efficient equipment or optimizing system settings to reduce energy consumption and lower utility bills.",
     },
   ];
   const [active, setActive] = useState("collapse0");

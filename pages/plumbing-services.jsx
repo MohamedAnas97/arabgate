@@ -13,38 +13,49 @@ const PlumbingServices = () => {
   const accordionData = [
     {
       id: 1,
-      title: "How do we assess the quality of the company's work?",
+      title: "What types of plumbing services do you offer?",
       content:
-        "There are a number of ways through which our work can be verified and assessed, you can do a thorough portfolio examination, check our testimonials and client references, check our reviews and ratings online, inquire about our     team’s technical expertise and certifications, check out our communication and     project management practices and policies, inquire about our post-launch     support and maintenance policies and most of all learn more about us and our     knack for innovation and future-readiness",
+        "We offer a comprehensive range of plumbing services, including but not limited to leak detection and repair, pipe installation and repair, drain cleaning, water heater installation and repair, and plumbing fixture installation.",
     },
     {
       id: 2,
       title:
-        " What makes your company unique in the software development industry?",
+        "Do you guarantee the quality of your workmanship and materials?",
       content:
-        "With unparalleled technical expertise, our team of skilled developers, designers,  and strategists have diverse industry experience. We understand your unique business requirements and create tailored software solutions aligned with your  goals.",
+        " Yes, we take pride in the quality of our workmanship and the materials we use. We stand behind our services and offer warranties to ensure your satisfaction with the completed plumbing work.",
     },
     {
       id: 3,
-      title: "How do you handle project timelines and deadlines?",
+      title: "Can you provide estimates before starting a plumbing project?",
       content:
-        "Through clear communication between team members, using project management tools and tracking progress and making adjustments through rigorous testing.",
+        " Absolutely! We offer free estimates for all plumbing projects. Our experienced technicians will assess the scope of the work and provide you with a detailed estimate, ensuring transparency and clarity before beginning any work.",
     },
     {
       id: 4,
       title:
-        "	What is Agile methodology, and do you follow it in your projects?",
+        "How do you ensure cleanliness and minimize disruption during plumbing repairs or installations?",
       content:
-        "Agile methodology is a form of project management which prioritises cross-functional collaboration and continuous improvement by dividing projects into smaller parts and phases which helps teams evaluate projects constantly and detect errors as well as plan and execute them effectively.",
+        "Our team takes great care to maintain a clean work area and minimize disruption to your home or business during plumbing repairs or installations. We use drop cloths, shoe covers, and cleanup equipment to ensure your space is left tidy once the job is complete.",
+    },
+    {
+      id: 5,
+      title:
+        "Are your plumbers licensed and insured?",
+      content:
+        "Yes, all of our plumbers are fully licensed, insured, and highly trained professionals. You can trust that our team has the expertise and qualifications to handle your plumbing needs safely and effectively.",
+    },
+    {
+      id: 6,
+      title:
+        "What measures do you take to ensure customer satisfaction with your plumbing services?",
+      content:
+        "Customer satisfaction is our top priority. We achieve this by providing transparent communication, prompt responses to inquiries, and courteous service from our skilled plumbers. We also offer follow-up support to ensure that our customers are completely satisfied with the work performed. Additionally, we welcome feedback and use it to continually improve our services, ensuring that every customer's experience with us is positive and hassle-free.",
     },
   ];
   const [active, setActive] = useState("collapse0");
   return (
     <Layout>
-      {/* Page Banner Start */}
       <PageBanner pageName={" Plumbing Services"} />
-      {/* Page Banner End */}
-
       <div className="container container-1290">
         <div className="row">
           <div className="col-lg-12 mt-30">
@@ -60,7 +71,6 @@ const PlumbingServices = () => {
           </div>
           <div className="about-content wow fadeInUp delay-0-4s">
             <div className="section-title pt-20">
-              {/* <span className="sub-title mb-15">What We Do</span> */}
               <h4 className="text-color font-fam h4-font">
               Our Services Includes :
               </h4>
@@ -85,18 +95,7 @@ const PlumbingServices = () => {
         </div>
       </div>
 
-      {/* Related Products Area start */}
       <section className="work-gallery-area py-80 rpy-80">
-        {/* <div className="container container-1290">
-          <div className="row justify-content-center">
-            <div className="col-xl-8 col-lg-10">
-              <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-20">Recent Works Gallery</span>
-                <h2>We’ve Complete 1532+ Projects Take A Look Our Work</h2>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className="container">
           <Swiper
             {...sliderProps.galleryFiveActive}

@@ -10,41 +10,41 @@ const DigitalDisplay = () => {
   const accordionData = [
     {
       id: 1,
-      title: " What types of electrical services do you offer?",
+      title: " What types of digital displays do you offer for businesses?",
       content:
-        "We offer a wide range of electrical services, including installation, repair, maintenance, and upgrades for residential, commercial, and industrial properties.",
+        "We offer a wide range of digital displays customized for various business needs, including indoor displays, outdoor displays, and interactive screens for schools and businesses.",
     },
     {
       id: 2,
-      title: "Are your electricians licensed and insured?",
+      title: "Can you tell us more about your indoor LED display solutions?",
       content:
-        "Yes, all our electricians are fully licensed, insured, and highly trained professionals with extensive experience in the field. You can trust us to handle your electrical needs safely and efficiently.",
+        "Our indoor LED displays are sourced from top industry providers, offering vibrant full-color displays ideal for information displays, in-store marketing, and other applications to engage customers and create impact in busy consumer environments.",
     },
     {
       id: 3,
       title:
-        "How do you ensure electrical safety during installations and repairs?",
+        "What makes your outdoor LED screens suitable for extreme climate conditions?",
       content:
-        "Safety is our top priority. We strictly adhere to all electrical codes and regulations, use proper safety equipment, and follow industry best practices to ensure the safety of our clients and their properties.",
+        "Our outdoor LED screens are specifically built to withstand the extreme climate conditions of the GCC region, providing perfect viewing solutions for large areas and arenas, including stadiums, concerts, and live shows.",
     },
     {
       id: 4,
-      title: "Do you offer emergency electrical services?",
+      title: "How do interactive screens benefit schools and businesses?",
       content:
-        "Yes, we understand that electrical emergencies can happen at any time. That's why we offer 24/7 emergency electrical services to address urgent issues promptly and minimize disruption to your home or business.",
+        "Interactive screens enhance engagement and efficiency in classrooms and workplaces. We partner with global solutions providers to offer products tailored for schools, universities, and businesses, facilitating smarter, quicker-paced environments.",
     },
     {
       id: 5,
       title:
-        "Can you help with energy-efficient lighting solutions or electrical upgrades?",
+        "What digital signage software do you provide?",
       content:
-        "Absolutely! We specialize in energy-efficient lighting solutions and can recommend and install LED lighting, smart lighting controls, and other energy-saving technologies to help you reduce your energy consumption and save on utility bills.",
+        "We partner with leading global solutions providers to offer digital signage software designed for schools, universities, businesses, and other progressive organizations across the UAE. Our software solutions enhance communication, engagement, and efficiency in various environments.",
     },
     {
       id: 6,
-      title: "How do you handle electrical inspections and code compliance?",
+      title: "How can businesses benefit from your digital display and signage services?",
       content:
-        "We conduct thorough electrical inspections to identify any issues and ensure compliance with local electrical codes and regulations. If any deficiencies are found, we provide recommendations and solutions to bring your electrical system up to code.",
+        "Our digital display and signage solutions help businesses captivate audiences, enhance brand visibility, and communicate messages effectively. Whether it's for marketing, information dissemination, or enhancing customer experiences, our solutions are tailored to meet diverse business needs.",
     },
   ];
   const [active, setActive] = useState("collapse0");
