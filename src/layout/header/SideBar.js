@@ -13,9 +13,9 @@ const SideBar = () => {
  
    const handleSubmit = (e) => {
      e.preventDefault(); 
-     const serviceId = "service_1b7fn0a";
-     const templateId = "template_kccm0hc";
-     const publicKey = "WETGn_7PStTlJ9KtM";
+     const serviceId = "service_8wevlia";
+     const templateId = "template_hyeamrn";
+     const publicKey = "V9G0hZRiV7bk1Jhc_";
  
      const templateParams = {
        user_name: name,
@@ -30,7 +30,7 @@ const SideBar = () => {
      .send(serviceId, templateId, templateParams, publicKey)
      .then((response) => {
        console.log("Email sent successfully:", response);
-       NotificationManager.success('Your message has been sent successfully!', 'Success');
+       NotificationManager.success('Thanks for contacting Arab Gate!. We ll connect soon!', 'Success');
        setName("");
        setPhone("");
        setEmail("");

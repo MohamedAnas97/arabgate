@@ -5,10 +5,7 @@ import ContactLayout from "@/src/components/contactFooter";
 const ProductDetails = () => {
   return (
     <Layout>
-      {/* Page Banner Start */}
       <PageBanner pageName={"Our Sevices"} />
-      {/* Page Banner End */}
-
       <div className="container container-1290">
         <div className="row">
           <div className="col-lg-12 mt-40">
@@ -24,7 +21,6 @@ const ProductDetails = () => {
           </div>
         </div>
       </div>
-      {/* Blog Style Four start */}
       <section className="blog-area-four pt-70 rpt-70 pb-70 rpb-40">
         <div className="container container-1290">
           <div className="row">
@@ -33,24 +29,26 @@ const ProductDetails = () => {
                 <div className="image">
                   <img src="assets/images/arab/s4.jpg"
                     alt="image" />
-                  <Link legacyBehavior href="/blog">
+                  <Link legacyBehavior href="/contact-us">
                     <a className="category font-fam">Book Now</a>
                   </Link>
                 </div>
                 <div className="content">
                   <h5>
-                    <Link legacyBehavior href="/blog-details">
+                    <Link legacyBehavior href="/interior-fitout">
                       <a className="font-fam">
                         Interior Fit-out and Renovation
                       </a>
                     </Link>
                   </h5>
+                  <Link href="/interior-fitout">
                   <span>
                     <a className="read-more1 text-white font-fam">
                       More Details
                       <i className="far fa-arrow-right" />
                     </a>
                   </span>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -59,22 +57,24 @@ const ProductDetails = () => {
                 <div className="image">
                   <img src="assets/images/arab/s1.jpg"
                     alt="image" />
-                  <Link legacyBehavior href="/blog">
+                  <Link legacyBehavior href="/contact-us">
                     <a className="category font-fam">Book Now</a>
                   </Link>
                 </div>
                 <div className="content">
                   <h5>
-                    <Link legacyBehavior href="/blog-details">
+                    <Link legacyBehavior href="/electrical-services">
                       <a className="font-fam">Electrical Services</a>
                     </Link>
                   </h5>
+                  <Link href="/electrical-services">
                   <span>
                     <a className="read-more1 text-white font-fam">
                       More Details
                       <i className="far fa-arrow-right" />
                     </a>
                   </span>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -83,22 +83,23 @@ const ProductDetails = () => {
                 <div className="image">
                   <img src="assets/images/arab/s5.jpg"
                     alt="image" />
-                  <Link legacyBehavior href="/blog">
+                  <Link legacyBehavior href="/contact-us">
                     <a className="category font-fam">Book Now</a>
                   </Link>
                 </div>
                 <div className="content">
                   <h5>
-                    <Link legacyBehavior href="/blog-details">
+                    <Link legacyBehavior href="/plumbing-services">
                       <a className="font-fam">Plumbing Services</a>
                     </Link>
                   </h5>
+                  <Link href="/plumbing-services">
                   <span>
                     <a className="read-more1 text-white font-fam">
                       More Details
                       <i className="far fa-arrow-right" />
                     </a>
-                  </span>
+                  </span></Link>
                 </div>
               </div>
             </div>
@@ -107,22 +108,24 @@ const ProductDetails = () => {
                 <div className="image">
                   <img src="assets/images/arab/s2.jpg"
                     alt="image" />
-                  <Link legacyBehavior href="/blog">
+                  <Link legacyBehavior href="/contact-us">
                     <a className="category font-fam">Book Now</a>
                   </Link>
                 </div>
                 <div className="content">
                   <h5>
-                    <Link legacyBehavior href="/blog-details">
+                    <Link legacyBehavior href="/ac-maintenance-repair">
                       <a className="font-fam">HVAC Maintenance and Repair</a>
                     </Link>
                   </h5>
+                  <Link href="/ac-maintenance-repair">
                   <span>
                     <a className="read-more1 text-white font-fam">
                       More Details
                       <i className="far fa-arrow-right" />
                     </a>
                   </span>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -131,22 +134,23 @@ const ProductDetails = () => {
                 <div className="image">
                   <img src="assets/images/arab/s11.jpg"
                     alt="image" />
-                  <Link legacyBehavior href="/blog">
+                  <Link legacyBehavior href="/contact-us">
                     <a className="category font-fam">Book Now</a>
                   </Link>
                 </div>
                 <div className="content">
                   <h5>
-                    <Link legacyBehavior href="/blog-details">
+                    <Link legacyBehavior href="/painting-epoxy">
                       <a className="font-fam">Painting and Epoxy</a>
                     </Link>
                   </h5>
+                  <Link href="/painting-epoxy">
                   <span>
                     <a className="read-more1 text-white font-fam">
                       More Details
                       <i className="far fa-arrow-right" />
                     </a>
-                  </span>
+                  </span> </Link>
                 </div>
               </div>
             </div>
@@ -155,22 +159,23 @@ const ProductDetails = () => {
                 <div className="image">
                   <img src="assets/images/arab/s8.jpg"
                     alt="image" />
-                  <Link legacyBehavior href="/blog">
+                  <Link legacyBehavior href="/contact-us">
                     <a className="category font-fam">Book Now</a>
                   </Link>
                 </div>
                 <div className="content">
                   <h5>
-                    <Link legacyBehavior href="/blog-details">
+                    <Link legacyBehavior href="/cctv-security-system">
                       <a className="font-fam"> CCTV Security Systems</a>
                     </Link>
                   </h5>
+                  <Link href="/cctv-security-system">
                   <span>
                     <a className="read-more1 text-white font-fam">
                       More Details
                       <i className="far fa-arrow-right" />
                     </a>
-                  </span>
+                  </span></Link>
                 </div>
               </div>
             </div>
@@ -179,22 +184,23 @@ const ProductDetails = () => {
                 <div className="image">
                   <img src="assets/images/arab/s6.jpg"
                     alt="image" />
-                  <Link legacyBehavior href="/blog">
+                  <Link legacyBehavior href="/contact-us">
                     <a className="category font-fam">Book Now</a>
                   </Link>
                 </div>
                 <div className="content">
                   <h5>
-                    <Link legacyBehavior href="/blog-details">
+                    <Link legacyBehavior href="/digital-display-signages">
                       <a className="font-fam"> Digital Displays & Signages</a>
                     </Link>
                   </h5>
+                  <Link href="/digital-display-signages">
                   <span>
                     <a className="read-more1 text-white font-fam">
                       More Details
                       <i className="far fa-arrow-right" />
                     </a>
-                  </span>
+                  </span> </Link>
                 </div>
               </div>
             </div>
@@ -203,36 +209,34 @@ const ProductDetails = () => {
                 <div className="image">
                   <img src="assets/images/arab/s12.jpg"
                     alt="image" />
-                  <Link legacyBehavior href="/blog">
+                  <Link legacyBehavior href="/contact-us">
                     <a className="category font-fam">Book Now</a>
                   </Link>
                 </div>
                 <div className="content">
                   <h5>
-                    <Link legacyBehavior href="/blog-details">
+                    <Link legacyBehavior href="/display-fixtures-retail-exhibitions">
                       <a className="font-fam">
                       Display Fixtures for Retail & Exhibitions
                       </a>
                     </Link>
                   </h5>
+                  <Link href="/display-fixtures-retail-exhibitions">
                   <span>
                     <a className="read-more1 text-white font-fam">
                       More Details
                       <i className="far fa-arrow-right" />
                     </a>
-                  </span>
+                  </span></Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
       <div className="rmy-30">
         <ContactLayout />
       </div>
-      {/* Related Products Area end */}
-      {/* footer area start */}
     </Layout>
   );
 };

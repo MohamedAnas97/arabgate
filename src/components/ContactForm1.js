@@ -14,9 +14,9 @@ const ContactForm1 = () => {
   const handleSubmit = (e) => {
     e.preventDefault(); 
 
-    const serviceId = "service_1b7fn0a";
-    const templateId = "template_kccm0hc";
-    const publicKey = "WETGn_7PStTlJ9KtM";
+    const serviceId = "service_8wevlia";
+    const templateId = "template_hyeamrn";
+    const publicKey = "V9G0hZRiV7bk1Jhc_";
 
     const templateParams = {
       user_name: name,
