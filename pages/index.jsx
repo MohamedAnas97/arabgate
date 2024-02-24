@@ -425,7 +425,6 @@ const index5 = () => {
           </div>
         </div>
       </section>
-
       <section className="about-area-five pt-60 pb-100 rpy-100 rel z-1">
         <div className="container container-1290">
           <div className="row align-items-center justify-content-center justify-content-lg-between">
