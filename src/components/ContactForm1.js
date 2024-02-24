@@ -12,7 +12,7 @@ const ContactForm1 = () => {
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent the default form submission behavior
+    e.preventDefault(); 
 
     const serviceId = "service_1b7fn0a";
     const templateId = "template_kccm0hc";
@@ -31,7 +31,7 @@ const ContactForm1 = () => {
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
         console.log("Email sent successfully:", response);
-        setSuccessMessage('Your message has been sent successfully!');
+        setSuccessMessage("Success! Thanks for contacting Arab Gate!. We'll connect soon!.");
         setErrorMessage('');
         // Reset form fields after successful submission
         setName("");
@@ -65,7 +65,7 @@ const ContactForm1 = () => {
               type="text"
               value={name}
               className="form-control"
-              placeholder="Full Name"
+              placeholder="Name"
               onChange={(e) => setName(e.target.value)}
               required
             />
@@ -77,7 +77,7 @@ const ContactForm1 = () => {
               type="phone"
               value={phone}
               className="form-control"
-              placeholder="Phone"
+              placeholder="Phone Number"
               onChange={(e) => setPhone(e.target.value)}
               required
             />

@@ -1,10 +1,8 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 import YgencyAccordion from "@/src/components/YgencyAccordion";
-// import Link from "next/link";
 import { sliderProps } from "@/src/sliderProps";
 import ContactLayout from "@/src/components/contactFooter";
-// import { Nav, Tab } from "react-bootstrap";
 import { Accordion } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useState } from "react";
@@ -55,10 +53,7 @@ const ProductDetails = () => {
   const [active, setActive] = useState("collapse0");
   return (
     <Layout>
-      {/* Page Banner Start */}
       <PageBanner pageName={"Interior Fit-out and Renovation"} />
-      {/* Page Banner End */}
-
       <div className="container container-1290">
         <div className="row">
           <div className="col-lg-12 mt-30">
@@ -86,7 +81,6 @@ const ProductDetails = () => {
           </div>
           <div className="about-content wow fadeInUp delay-0-4s">
             <div className="section-title pt-20">
-              {/* <span className="sub-title mb-15">What We Do</span> */}
               <h4 className="text-color font-fam h4-font">
                 Our Services Includes :
               </h4>
@@ -110,8 +104,6 @@ const ProductDetails = () => {
           </div>
         </div>
       </div>
-
-      {/* Related Products Area start */}
       <section className="work-gallery-area py-80 rpy-80">
         <div className="container">
           <Swiper

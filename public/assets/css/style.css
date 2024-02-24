@@ -5512,7 +5512,7 @@ h6,
 }
 
 .slide-content {
-  max-width: 740px;
+  max-width: 840px;
 }
 .slide-content .sub-title {
   font-size: 18px;
@@ -5676,7 +5676,7 @@ h6,
 }
 .main-slider-arrows button:focus,
 .main-slider-arrows button:hover {
-  color: navy;
+  color: #444;
 }
 .main-slider-arrows button.main-slider-prev {
   padding-left: 20px;
@@ -7817,7 +7817,7 @@ blockquote .blockquote-footer:before {
 }
 
 .form-style-two {
-  background: #040b1b;
+  background: #192645;
   padding: 40px 50px;
 }
 @media only screen and (max-width: 375px) {
@@ -12108,4 +12108,12 @@ blockquote .blockquote-footer:before {
   position: relative;
   left: -8px;
 
+}
+.success-message {
+  background-color: #108414; /* Green */
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
 }

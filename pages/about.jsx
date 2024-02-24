@@ -78,14 +78,14 @@ const AboutUs = () => {
                 className="a-icon cursor"
                 onClick={() =>
                   window.open(
-                    "https://www.youtube.com/"
+                    "https://www.youtube.com/channel/UCvwyj0zLeK3IlQ407MEvWuw"
                   )
                 }
               >
                 <i className="fab fa-youtube" /> <span>Youtube</span>
               </a>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.tiktok.com/"
                 target="_blank"
               >
                 <i className="fab fa-tiktok" /> <span>Tiktok</span>

@@ -1,6 +1,28 @@
 import Link from "next/link";
-
+import { useState, useEffect } from "react";
 const Footer3 = () => {
+  const [email, setEmail] = useState('');
+  const [successMessage, setSuccessMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setSuccessMessage('Thank you for subscribing to Arab Gate!');
+    setEmail('');
+  };
+  useEffect(() => {
+    if (successMessage) {
+      const timer = setTimeout(() => {
+        setSuccessMessage('');
+      }, 5000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [successMessage]);
   return (
     <footer
       className="main-footer footer-three rel bgs-cover z-1"
@@ -25,8 +47,7 @@ const Footer3 = () => {
                 <a  href="https://www.facebook.com/"
               target="_blank"><i className="fab fa-facebook-f" />Facebook</a>
                 <a href="https://www.instagram.com/" target="_blank"><i className="fab fa-instagram" />Instagram</a>
-                <a href="https://www.linkedin.com/"
-              target="_blank"><i className="fab fa-youtube" />Youtube</a>
+                <a href="https://www.youtube.com/channel/UCvwyj0zLeK3IlQ407MEvWuw" target="_blank"><i className="fab fa-youtube" />Youtube</a>
                 <a  href="https://www.tiktok.com/"
               target="_blank"><i className="fab fa-tiktok" />TikTok</a>
               </div>
@@ -66,14 +87,22 @@ const Footer3 = () => {
           </div>
           <div className="col-lg-6">
             <div className="footer-widget newsletter-widget wow fadeInUp delay-0-6s">
-              <h5 className="footer-title font-fam">Subscribe To Our Newsletter
-</h5>
-              <form className="footer-newsletter" action="#">
-                <input type="email" placeholder="Email Address" required />
-                <button type="submit">
-                  <i className="fas fa-arrow-right" />
-                </button>
-              </form>
+              <h5 className="footer-title font-fam">Subscribe To Our Newsletter</h5>
+              <form className="footer-newsletter" onSubmit={handleSubmit}>
+        <input 
+          type="email" 
+          placeholder="Email Address" 
+          required 
+          value={email}
+          onChange={handleChange}
+        />
+        <button type="submit">
+          <i className="fas fa-arrow-right" />
+        </button>
+      </form>
+       {successMessage && <div className="success-message">{successMessage}</div>}
+      
+      {errorMessage && <div className="error-message">{errorMessage}</div>}
             </div>
           </div>
         </div>

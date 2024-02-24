@@ -1,7 +1,7 @@
 import { Fragment, useEffect } from "react";
 import niceSelect from "react-nice-select";
 import ImageView from "../components/ImageView";
-import VideoPopup from "../components/VideoPopup";
+// import VideoPopup from "../components/VideoPopup";
 import { animation, sidebarClick } from "../utils";
 import ScrollTop from "./ScrollTop";
 import Whatsapp from "./Whatsapp";
@@ -17,7 +17,7 @@ const Layout = ({ children, header, footer3, singleMenu }) => {
   }, []);
   return (
     <Fragment>
-      <VideoPopup />
+      {/* <VideoPopup /> */}
       <ImageView />
       <div className="page-wrapper">
         <Header header={header} singleMenu={singleMenu} />

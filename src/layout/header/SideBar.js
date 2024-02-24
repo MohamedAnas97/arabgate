@@ -80,7 +80,7 @@ const SideBar = () => {
               <div className="form-group">
                 <input
                   type="tel"
-                  placeholder="Phone"
+                  placeholder="Phone Number"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                   required
@@ -105,7 +105,7 @@ const SideBar = () => {
               </div>
               <div className="form-group">
                 <button type="submit" className="theme-btn">
-                  <span> Submit now</span>
+                  <span> Submit Now</span>
                 </button>
               </div>
             </form>
@@ -113,22 +113,22 @@ const SideBar = () => {
           {/*Social Icons*/}
           <div className="social-style-one">
             <a
-              href="https://www.facebook.com/profile.php?id=100091663875681"
+              href="https://www.facebook.com/"
               target="_blank"
             >
               <i className="fab fa-facebook-f" />
             </a>
-            <a href="https://www.instagram.com/gnginnovations/" target="_blank">
+            <a href="https://www.instagram.com/" target="_blank">
               <i className="fab fa-instagram" />
             </a>
             <a
-              href="https://www.linkedin.com/company/g-g-innovations/"
+              href="https://www.youtube.com/channel/UCvwyj0zLeK3IlQ407MEvWuw"
               target="_blank"
             >
               <i className="fab fa-youtube" />
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=971509634996&text="
+              href="https://www.tiktok.com/"
               target="_blank"
             >
               <i className="fab fa-tiktok" />
