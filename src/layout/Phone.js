@@ -6,7 +6,7 @@ const CallButton = ({ phoneNumber }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowText(!showText);
-    }, 3000); // Toggle text every 10 seconds
+    }, 3000); // 
 
     return () => clearTimeout(timer);
   }, [showText]);
@@ -19,13 +19,10 @@ const CallButton = ({ phoneNumber }) => {
     <div
       style={{
         position: "fixed",
-        right: "7px",
+        right: "6px",
         bottom: "70px",
         zIndex: 20,
         cursor: "pointer",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
       }}
       onClick={handleClick}
       className="animate"

@@ -1,4 +1,5 @@
 import { sliderProps } from "@/src/sliderProps";
+import Link from "next/link";
 import { Component } from "react";
 import Slider from "react-slick";
 export default class Home5Slider extends Component {
@@ -32,17 +33,16 @@ export default class Home5Slider extends Component {
               <div className="container ">
                 <div className="slide-content">
                   <h2 className="mt-60">
-                    <span className="font-fam">Perfect Marketing</span>
-                    <br className="font-fam" /> For Growth Your Dream Business
+                    <span className="font-fam">Exceeding Expectations</span>
+                    <br className="font-fam" /> Your Customized Maintenance Partner
                   </h2>
                   <hr />
                   <div className="ratting-btns">
-                    <a
-                      href="contact.html"
+                   <Link href="/contact-us"><span> <a
                       className="theme-btn style-two font-fam"
                     >
                       Contact Now <i className="far fa-arrow-right" />
-                    </a>
+                    </a></span></Link>
                   </div>
                 </div>
               </div>
@@ -58,17 +58,16 @@ export default class Home5Slider extends Component {
               <div className="container">
                 <div className="slide-content">
                   <h2 className="mt-60">
-                    <span className="font-fam">Perfect Marketing</span>
-                    <br className="font-fam" /> For Growth Your Dream Business
+                    <span className="font-fam">Empowering Excellence</span>
+                    <br className="font-fam" />Electrical and Maintenance Mastery
                   </h2>
                   <hr />
                   <div className="ratting-btns">
-                    <a
-                      href="contact.html"
+                  <Link href="/contact-us"><span> <a
                       className="theme-btn style-two font-fam"
                     >
                       Contact Now <i className="far fa-arrow-right" />
-                    </a>
+                    </a></span></Link>
                   </div>
                 </div>
               </div>
@@ -84,18 +83,16 @@ export default class Home5Slider extends Component {
               <div className="container">
                 <div className="slide-content">
                   <h2 className="mt-60">
-                    <span className="font-fam">Perfect Marketing</span>
-                    <br className="font-fam" /> For Growth Your Dream Business
+                    <span className="font-fam">Exceeding Expectations</span>
+                    <br className="font-fam" /> Tailored Maintenance Solutions
                   </h2>
                   <hr />
                   <div className="ratting-btns">
-                    <a
-                      href="contact.html"
+                  <Link href="/contact-us"><span> <a
                       className="theme-btn style-two font-fam"
                     >
-                      Contact Now
-                      <i className="far fa-arrow-right" />
-                    </a>
+                      Contact Now <i className="far fa-arrow-right" />
+                    </a></span></Link>
                   </div>
                 </div>
               </div>

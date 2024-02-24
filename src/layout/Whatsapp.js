@@ -1,25 +1,39 @@
+import React, { useState, useEffect } from 'react';
+
 const Whatsapp = () => {
+  const [showText, setShowText] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowText(!showText);
+    }, 3000); 
+
+    return () => clearTimeout(timer);
+  }, [showText]);
+
   return (
     <div
       style={{
         position: "fixed",
-        right: "10px",
+        right: "5px",
         bottom: "10px",
         zIndex: 20,
       }}
       className="animate"
     >
+      <span className={showText ? "whatsapp-text visible" : "whatsapp-text"}>Send Message</span>
       <a
-        href="https://api.whatsapp.com/send?phone=971527690405&text="
+        href="https://api.whatsapp.com/send?phone=971585443090&text="
         target="_blank"
       >
         <img
           src="/assets/images/arab2/whatsapp.png"
-          alt=""
-          style={{ height: "50px" }}
+          alt="WhatsApp Icon"
+          className='whatsapp-icon'
         />
       </a>
     </div>
   );
 };
+
 export default Whatsapp;

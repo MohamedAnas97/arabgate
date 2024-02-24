@@ -1132,7 +1132,7 @@ a.theme-btn.style-three {
 .scroll-top {
   position: fixed;
   bottom: 130px;
-  right: 13px;
+  right: 16px;
   width: 40px;
   height: 40px;
   z-index: 99;
@@ -5676,7 +5676,7 @@ h6,
 }
 .main-slider-arrows button:focus,
 .main-slider-arrows button:hover {
-  color: #000;
+  color: navy;
 }
 .main-slider-arrows button.main-slider-prev {
   padding-left: 20px;
@@ -12056,13 +12056,12 @@ blockquote .blockquote-footer:before {
 .call-now-text {
   font-weight: 600;
   font-size: 14px;
-  padding: 2px 15px 2px 8px;
-  border-top-left-radius: 24px;
-  border-bottom-left-radius: 24px;
-  background-color: #007bff;
+  padding: 8px 15px 8px 10px;
+  border-top-left-radius: 15px;
+  background-image: linear-gradient(rgba(11, 161, 14, 0.76), rgb(8, 99, 31));
   color: #fff;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
+  transition: transform 0.6s ease;
   opacity: 0; 
 }
 
@@ -12085,4 +12084,28 @@ blockquote .blockquote-footer:before {
   padding: 0;
   position: relative;
   left: -8px;
+}
+
+.whatsapp-text {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 6px 15px 6px 8px;
+  border-top-left-radius: 15px;
+  background-image: linear-gradient(rgba(21, 207, 24, 0.827), rgb(8, 151, 44));
+  color: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.whatsapp-text.visible {
+  opacity: 1;
+}
+
+.whatsapp-icon {
+  height: 52px;
+  padding: 0;
+  position: relative;
+  left: -8px;
+
 }
