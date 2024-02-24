@@ -42,7 +42,7 @@ export default function App({ Component, pageProps }) {
         {/* Favicon Icon */}
         <link
           rel="shortcut icon"
-          href="assets/images/arab/logo-2.png"
+          href="assets/images/arab/logoicon.png"
           type="image/x-icon"
         />
         {/* Google Fonts */}
@@ -50,13 +50,6 @@ export default function App({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
-
-        {/* <!-- whatsapp --> */}
-        {/* <script
-          defer
-          src="https://widget.tochat.be/bundle.js?key=7d425030-4f6e-4485-bf14-257a3e540bb6"
-        ></script> */}
-        {/* <!-- gtag script --> */}
         
       </Head>
       {!loaded && <PreLoader />}
