@@ -15,8 +15,8 @@ const Whatsapp = () => {
     <div
       style={{
         position: "fixed",
-        right: "5px",
-        bottom: "10px",
+        right: "4px",
+        bottom: "8px",
         zIndex: 20,
       }}
       className="animate"

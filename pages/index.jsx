@@ -457,7 +457,6 @@ const index5 = () => {
                 <img src="assets/images/arab/person.png" alt="FAQs" />
               </div>
             </div>
-            {/* </div> */}
           </div>
         </div>
       </section>

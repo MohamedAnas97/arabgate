@@ -4351,7 +4351,7 @@ h6,
   .main-menu .navbar-collapse > ul {
     display: block;
     padding: 20px 0;
-    background: #020d26;
+    background: #111;
   }
   .main-menu .navbar-collapse > ul > li:last-child {
     border-bottom: 1px solid var(--ygency-border-color);
@@ -12103,10 +12103,10 @@ blockquote .blockquote-footer:before {
 }
 
 .whatsapp-icon {
-  height: 52px;
+  height: 54px;
   padding: 0;
   position: relative;
-  left: -8px;
+  left: -10px;
 
 }
 .success-message {

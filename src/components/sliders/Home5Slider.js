@@ -99,7 +99,7 @@ export default class Home5Slider extends Component {
             </div>
           </div>
         </Slider>
-        <div className="main-slider-controls">
+        <div className="main-slider-controls ">
           <div className="container">
             <div className="main-slider-arrows">
               <button className="main-slider-prev" onClick={this.previous}>
