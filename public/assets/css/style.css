@@ -554,7 +554,7 @@ a.theme-btn:hover i {
 }
 .theme-btn.style-two,
 a.theme-btn.style-two {
-  color: #111;
+  color: #fff;
   background: #ffae46;
   border-color: #ffae46;
 }
@@ -5663,7 +5663,7 @@ h6,
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  color: #222;
+  color: #fff;
   text-transform: uppercase;
   background: #ffae46;
 }
@@ -5676,7 +5676,7 @@ h6,
 }
 .main-slider-arrows button:focus,
 .main-slider-arrows button:hover {
-  color: #fff;
+  color: #222;
 }
 .main-slider-arrows button.main-slider-prev {
   padding-left: 20px;
@@ -5718,7 +5718,7 @@ h6,
   font-size: 115px;
   font-weight: 700;
   letter-spacing: -2px;
-  color: #041336;
+  color: #061c4f;
   text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7245,7 +7245,7 @@ h6,
   font-size: 14px;
   font-weight: 600;
   padding: 2px 20px;
-  color: #111;
+  color: #fff;
   text-transform: uppercase;
   background: #ffae46;
   -webkit-transform: translateY(50%);

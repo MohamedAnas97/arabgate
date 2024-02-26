@@ -1,5 +1,4 @@
-import React, { useState, useEffect
- } from "react";
+import React, { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactForm1 = () => {
@@ -12,7 +11,7 @@ const ContactForm1 = () => {
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleSubmit = (e) => {
-    e.preventDefault(); 
+    e.preventDefault();
 
     const serviceId = "service_8wevlia";
     const templateId = "template_hyeamrn";
@@ -31,8 +30,10 @@ const ContactForm1 = () => {
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
         console.log("Email sent successfully:", response);
-        setSuccessMessage("Success! Thanks for contacting Arab Gate!. We'll connect soon!.");
-        setErrorMessage('');
+        setSuccessMessage(
+          "Success! Thanks for contacting Arab Gate!. We'll connect soon!."
+        );
+        setErrorMessage("");
         // Reset form fields after successful submission
         setName("");
         setPhone("");
@@ -42,8 +43,8 @@ const ContactForm1 = () => {
       })
       .catch((error) => {
         console.error("Error sending email:", error);
-        setSuccessMessage('');
-        setErrorMessage('Failed to send message. Please try again later.');
+        setSuccessMessage("");
+        setErrorMessage("Failed to send message. Please try again later.");
       });
   };
   useEffect(() => {
