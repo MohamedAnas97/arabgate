@@ -41,7 +41,7 @@ const ContactFooter = () => {
 
                     <a
                       className="callto text-color font-fam font-semibold"
-                      href="callto:+971-04-3349500"
+                      href="callto:+971 585443090"
                     >
                       <i className="fas fa-phone-alt" /> +971 585443090 
                     </a>
