@@ -538,7 +538,7 @@ a.theme-btn i {
 .theme-btn:hover,
 a.theme-btn:hover {
   color: #fff;
-  background: #ffae46;
+  background: #f99210;
   border-color: var(--ygency-primary-color);
 }
 .theme-btn:hover i,
@@ -555,12 +555,12 @@ a.theme-btn:hover i {
 .theme-btn.style-two,
 a.theme-btn.style-two {
   color: #fff;
-  background: #ffae46;
-  border-color: #ffae46;
+  background: #f99210;
+  border-color: #f99210;
 }
 .theme-btn.style-two:hover,
 a.theme-btn.style-two:hover {
-  color: #ffae46;
+  color: #f99210;
   background: transparent;
 }
 .theme-btn.style-three,
@@ -682,7 +682,7 @@ a.theme-btn.style-three {
   transform: rotate(-45deg);
 }
 .read-more:hover {
-  color: #ffae46;
+  color: #f99210;
   text-decoration: underline;
 }
 .read-more:hover i {
@@ -736,7 +736,7 @@ a.theme-btn.style-three {
 }
 .read-more1 i {
   float: right;
-  color: #ffae46;
+  color: #f99210;
   font-weight: 600;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -841,7 +841,7 @@ a.theme-btn.style-three {
   content: "\f560";
   font-size: 1.2em;
   margin-right: 15px;
-  color: #ffae46;
+  color: #f99210;
   font-family: "Font Awesome 5 Pro";
 }
 
@@ -1005,8 +1005,8 @@ a.theme-btn.style-three {
   border-radius: 50%;
   background-color: #041336;
   border: 5px solid #fff;
-  border-top: 5px solid #ffae46;
-  border-bottom: 5px solid #ffae46;
+  border-top: 5px solid #f99210;
+  border-bottom: 5px solid #f99210;
   -webkit-animation: 1s preloader linear infinite;
   animation: 1s preloader linear infinite;
 }
@@ -1077,7 +1077,7 @@ a.theme-btn.style-three {
 .ratting.style-two i {
   margin: 3px;
   font-size: 13px;
-  color: #ffae46;
+  color: #f99210;
   display: flex;
   justify-content: center;
 }
@@ -1138,11 +1138,11 @@ a.theme-btn.style-three {
   z-index: 99;
   display: none;
   font-size: 14px;
-  color: #222;
+  color: #fff;
   cursor: pointer;
   line-height: 40px;
   border-radius: 5px;
-  background: #ffae46;
+  background: #f99210;
 }
 .animate {
   -webkit-animation: pulse 2s infinite;
@@ -4370,7 +4370,7 @@ h6,
     -o-transition: 0.35s;
     transition: 0.35s;
     font-family: "Font Awesome 5 Pro";
-    color: #ffae46;
+    color: #f99210;
     -webkit-transform: translateX(-50%) rotate(-45deg);
     -ms-transform: translateX(-50%) rotate(-45deg);
     transform: translateX(-50%) rotate(-45deg);
@@ -4686,7 +4686,7 @@ h6,
   cursor: pointer;
   width: 50px;
   height: 50px;
-  background: #ffae46;
+  background: #f99210;
   line-height: 50px;
   border-radius: 50%;
   text-align: center;
@@ -5149,7 +5149,7 @@ h6,
   -webkit-writing-mode: vertical-lr;
 }
 .hero-social a:hover {
-  color: #ffae46;
+  color: #f99210;
   text-decoration: underline;
 }
 .hero-social a i {
@@ -5470,7 +5470,7 @@ h6,
   z-index: -1;
   width: 100%;
   height: 94%;
-  background: #ffae46;
+  background: #f99210;
   border-radius: 250px 250px 0 0;
 }
 
@@ -5665,7 +5665,7 @@ h6,
   padding-bottom: 15px;
   color: #fff;
   text-transform: uppercase;
-  background: #ffae46;
+  background: #f99210;
 }
 @media only screen and (max-width: 575px) {
   .main-slider-arrows button {
@@ -5772,7 +5772,7 @@ h6,
 .headline-text > span span {
   color: transparent;
   -webkit-text-stroke: 1.5px;
-  -webkit-text-stroke-color: #ffae46;
+  -webkit-text-stroke-color: #f99210;
 }
 @media only screen and (min-width: 1400px) {
   .headline-text.style-two {
@@ -6041,7 +6041,7 @@ h6,
   justify-content: center;
 }
 .breadcrumb .breadcrumb-item.active {
-  color: #ffae46;
+  color: #f99210;
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
@@ -6547,7 +6547,7 @@ h6,
   transition: 0.5s;
   margin-bottom: 30px;
   padding: 30px 40px 20px;
-  background-color: #0c356b;
+  background-color: #0c305f;
 }
 @media only screen and (max-width: 767px) {
   .service-item {
@@ -6588,7 +6588,7 @@ h6,
   transition: 0.5s;
 }
 .service-item:hover {
-  background-color: #0c356b;
+  background-color: #0c305f;
 }
 .service-item:hover p,
 .service-item:hover h5,
@@ -6643,7 +6643,7 @@ h6,
   color: var(--ygency-dark-color);
 }
 .service-item.style-three {
-  border: 2px solid #0c356b;
+  border: 2px solid #0c305f;
 }
 
 .service-item.style-three {
@@ -6686,8 +6686,8 @@ h6,
   text-decoration: underline;
 }
 .service-item.style-three:hover {
-  background: #0c356b;
-  border-color: #ffae46;
+  background: #0c305f;
+  border-color: #f99210;
 }
 .service-item.style-three:hover .icon {
   color: var(--ygency-primary-color);
@@ -7247,7 +7247,7 @@ h6,
   padding: 2px 20px;
   color: #fff;
   text-transform: uppercase;
-  background: #ffae46;
+  background: #f99210;
   -webkit-transform: translateY(50%);
   -ms-transform: translateY(50%);
   transform: translateY(50%);
@@ -8039,11 +8039,11 @@ blockquote .blockquote-footer:before {
 }
 .our-location-address .callto i {
   font-size: 12px;
-  color: #040b1b;
+  color: #111;
   margin-right: 10px;
   width: 30px;
   height: 30px;
-  background: #ffae46;
+  background: #f99210;
   line-height: 30px;
   border-radius: 50%;
   text-align: center;
@@ -8251,7 +8251,7 @@ blockquote .blockquote-footer:before {
   line-height: 115px;
   padding-left: 25px;
   margin-right: 20px;
-  background: #ffae46;
+  background: #f99210;
   -webkit-clip-path: polygon(0 0, 100% 0, calc(100% - 30px) 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, calc(100% - 30px) 100%, 0 100%);
 }
@@ -8590,7 +8590,7 @@ blockquote .blockquote-footer:before {
   left: 25px;
   bottom: 40px;
   padding: 10px 15px;
-  background: #ffae46;
+  background: #f99210;
 }
 .team-member.style-three .image .social-style-two a {
   width: 30px;
@@ -9707,7 +9707,7 @@ blockquote .blockquote-footer:before {
   box-shadow: none;
 }
 .accordion-item .accordion-button:after {
-  color: #ffae46;
+  color: #f99210;
   font-size: 18px;
   background: none;
   content: "\f061";
@@ -11001,18 +11001,18 @@ blockquote .blockquote-footer:before {
   background: -webkit-radial-gradient(
     50.43% 100.01%,
     49.57% 329259.92%,
-    #ffae46 20%,
+    #f99210 20%,
     rgba(85, 230, 165, 0) 100%
   );
   background: -o-radial-gradient(
     50.43% 100.01%,
     49.57% 329259.92%,
-    #ffae46 20%,
+    #f99210 20%,
     rgba(85, 230, 165, 0) 100%
   );
   background: radial-gradient(
     49.57% 329259.92% at 50.43% 100.01%,
-    #ffae46 20%,
+    #f99210 20%,
     rgba(85, 230, 165, 0) 100%
   );
   height: 2px;
@@ -11822,7 +11822,7 @@ blockquote .blockquote-footer:before {
   display: inline-block;
 }
 .footer-text a:hover {
-  color: #ffae46;
+  color: #f99210;
   text-decoration: none;
   text-decoration: underline;
 }
@@ -11879,7 +11879,7 @@ blockquote .blockquote-footer:before {
 
 /* Footer top two */
 .footer-three .copyright-area a {
-  color: #ffae46;
+  color: #f99210;
   font-weight: 600;
 }
 @media only screen and (min-width: 1024px) {
@@ -11892,7 +11892,7 @@ blockquote .blockquote-footer:before {
 }
 
 .footer-top-two .social-style-four a:hover {
-  color: #ffae46;
+  color: #f99210;
 }
 
 /* Footer Four */
@@ -11905,7 +11905,7 @@ blockquote .blockquote-footer:before {
   margin-right: 15px;
 }
 .footer-four .social-style-four a:hover {
-  color: #ffae46;
+  color: #f99210;
 }
 
 .footer-four .list-style-two li {
@@ -11923,13 +11923,13 @@ blockquote .blockquote-footer:before {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 .footer-four .copyright-area a {
-  color: #ffae46;
+  color: #f99210;
 }
 
 /* Footer Five */
 .footer-five .footer-bottom-menu ul li a:hover,
 .footer-five .footer-copyright-text a {
-  color: #ffae46;
+  color: #f99210;
 }
 
 .footer-five .copyright-area {
@@ -11947,7 +11947,7 @@ blockquote .blockquote-footer:before {
 .footer-five .footer-info .list-style-two li i {
   margin-top: 7px;
   margin-right: 13px;
-  color: #ffae46;
+  color: #f99210;
 }
 .footer-five .footer-info .list-style-two li a:hover {
   font-size: 24px;
@@ -11956,8 +11956,8 @@ blockquote .blockquote-footer:before {
   color: #333 !important;
 }
 .button-color {
-  background-color: #ffae46;
-  color: #111;
+  background-color: #f99210;
+  color: #fff;
   font-weight: 600;
 }
 .contact-background {
@@ -12027,7 +12027,7 @@ blockquote .blockquote-footer:before {
 }
 
 .org-color {
-  color: #ffae46;
+  color: #f99210;
 }
 .review-back {
   background-color: #b3ceb9;
@@ -12044,7 +12044,7 @@ blockquote .blockquote-footer:before {
 }
 .review-one {
   padding: 15px 20px;
-  border: solid 1px #ffae46;
+  border: solid 1px #f99210;
   margin: 20px;
   background: #fff;
   border-radius: 20px;
