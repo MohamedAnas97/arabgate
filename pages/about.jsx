@@ -61,7 +61,7 @@ const AboutUs = () => {
 
             <div className="hero-social">
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/agarabgate/"
                 target="_blank"
                
               >
@@ -69,7 +69,7 @@ const AboutUs = () => {
               </a>
              
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/ag_arabgate"
                 target="_blank"
               >
                 <i className="fab fa-instagram" /> <span>Instagram</span>

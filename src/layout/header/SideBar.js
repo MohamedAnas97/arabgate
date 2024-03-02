@@ -113,12 +113,12 @@ const SideBar = () => {
           {/*Social Icons*/}
           <div className="social-style-one">
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/agarabgate/"
               target="_blank"
             >
               <i className="fab fa-facebook-f" />
             </a>
-            <a href="https://www.instagram.com/" target="_blank">
+            <a href="https://www.instagram.com/ag_arabgate" target="_blank">
               <i className="fab fa-instagram" />
             </a>
             <a
