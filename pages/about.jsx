@@ -85,7 +85,7 @@ const AboutUs = () => {
                 <i className="fab fa-youtube" /> <span>Youtube</span>
               </a>
               <a
-                href="https://www.tiktok.com/"
+                href="https://www.tiktok.com/@arabgate"
                 target="_blank"
               >
                 <i className="fab fa-tiktok" /> <span>Tiktok</span>

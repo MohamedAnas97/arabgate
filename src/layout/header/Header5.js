@@ -29,7 +29,7 @@ const Header5 = ({ singleMenu }) => {
                   <a href="https://www.youtube.com/channel/UCvwyj0zLeK3IlQ407MEvWuw" target="_blank">
                     <i className="fab fa-youtube" />
                   </a>
-                  <a href="https://www.tiktok.com/" target="_blank">
+                  <a href="https://www.tiktok.com/@arabgate" target="_blank">
                     <i className="fab fa-tiktok" />
                   </a>
                 </div>

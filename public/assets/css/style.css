@@ -478,7 +478,7 @@ input[type="radio"] {
     #ffffff 0%,
     rgba(255, 255, 255, 0) 100%
   );
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .section-title.style-two h2 i {
@@ -5156,7 +5156,7 @@ h6,
 .hero-social a {
   color: #222;
   text-transform: capitalize;
-  -webkit-writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
 }
 .hero-social a:hover {
   color: #f99210;
@@ -5809,7 +5809,7 @@ h6,
     #ffffff 0%,
     rgba(255, 255, 255, 0) 100%
   );
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: transparent;
 }
@@ -6263,7 +6263,7 @@ h6,
     rgba(255, 255, 255, 0.1) 0%,
     rgba(255, 255, 255, 0.01) 100%
   );
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
   left: 5%;
@@ -8398,7 +8398,7 @@ blockquote .blockquote-footer:before {
     rgba(255, 255, 255, 0.15) 0%,
     rgba(255, 255, 255, 0.02) 100%
   );
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   position: absolute;
   left: 5%;
@@ -8625,8 +8625,6 @@ blockquote .blockquote-footer:before {
 }
 .team-member.style-three .content h4 {
   margin-bottom: 0;
-}
-.team-member.style-three .content > span {
 }
 .team-member.style-three:hover .image .social-style-two {
   bottom: 20px;

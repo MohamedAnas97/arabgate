@@ -128,7 +128,7 @@ const SideBar = () => {
               <i className="fab fa-youtube" />
             </a>
             <a
-              href="https://www.tiktok.com/"
+              href="https://www.tiktok.com/@arabgate"
               target="_blank"
             >
               <i className="fab fa-tiktok" />

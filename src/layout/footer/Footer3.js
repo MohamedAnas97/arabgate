@@ -48,7 +48,7 @@ const Footer3 = () => {
               target="_blank"><i className="fab fa-facebook-f" />Facebook</a>
                 <a href="https://www.instagram.com/ag_arabgate" target="_blank"><i className="fab fa-instagram" />Instagram</a>
                 <a href="https://www.youtube.com/channel/UCvwyj0zLeK3IlQ407MEvWuw" target="_blank"><i className="fab fa-youtube" />Youtube</a>
-                <a  href="https://www.tiktok.com/"
+                <a  href="https://www.tiktok.com/@arabgate"
               target="_blank"><i className="fab fa-tiktok" />TikTok</a>
               </div>
             </div>
