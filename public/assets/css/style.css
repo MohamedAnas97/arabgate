@@ -12156,3 +12156,6 @@ blockquote .blockquote-footer:before {
   border-radius: 5px;
   text-align: center;
 }
+.non-background {
+  background: #000;
+}

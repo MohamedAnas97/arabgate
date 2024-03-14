@@ -13,7 +13,7 @@ const contactDetails = () => {
         <div className="container container-1290">
           <div className="our-location">
             <iframe
-              src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=ARAB%20GATE%20Technical%20Services%20LLC,%20Al%20Shaali%20Building%20-%20B%20Block%20104%20-%20Damascus%20street%20-%20Al%20Qusais%20-%20Dubai+(ARAB%20GATE%20Technical%20Services%20LLC)&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=ARAB%20GATE%20Technical%20Services%20LLC,%20Block%20104%20-%20Damascus%20street%20-%20Al%20Qusais%20-%20Dubai+(ARAB%20GATE%20Technical%20Services%20LLC)&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               style={{ border: 0, width: "100%" }}
               allowFullScreen
               loading="lazy"
