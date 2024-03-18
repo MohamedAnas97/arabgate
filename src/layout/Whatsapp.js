@@ -6,7 +6,7 @@ const Whatsapp = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowText(!showText);
-    }, 3000); 
+    }, 4000); 
 
     return () => clearTimeout(timer);
   }, [showText]);

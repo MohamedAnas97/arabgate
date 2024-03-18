@@ -6,7 +6,7 @@ const CallButton = ({ phoneNumber }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowText(!showText);
-    }, 3000); // 
+    }, 4000); // 
 
     return () => clearTimeout(timer);
   }, [showText]);
@@ -29,7 +29,7 @@ const CallButton = ({ phoneNumber }) => {
     >
       <span className={showText ? "call-now-text visible" : "call-now-text"}>Call Now</span>
       <img
-        src="/assets/images/arab/phone-call.png"
+        src="/assets/images/arab/phone-call1.png"
         alt="Phone Icon"
         className="phone-icon"
       />

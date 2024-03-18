@@ -61,18 +61,7 @@ const Header5 = ({ singleMenu }) => {
               <Nav singleMenu={singleMenu} />
               {/* Main Menu End*/}
             </div>
-            {/* <div className="call-anytime">
-              <div className="icon">
-                <i className="fas fa-phone-alt" />
-              </div>
-              <div className="content">
-                <span>Call Anytime</span>
-                <a href="callto:985236425288">+971 585443090</a>
-              </div>
-            </div> */}
-            {/* Nav Search */}
-            {/* <NavSearch /> */}
-            {/* Menu Button */}
+           
             <div className="menu-btns">
               {/* menu sidbar */}
               <div className="menu-sidebar">

@@ -59,7 +59,7 @@ const ContactForm1 = () => {
   return (
     <form className="form-style-two" onSubmit={handleSubmit}>
       <div className="row">
-        <span className="text-[#fff] h4-font pb-60">Get in Touch</span>
+        <span className="text-white h4-font pb-60 font-semibold">Get in Touch</span>
         <div className="col-md-6">
           <div className="form-group">
             <input
