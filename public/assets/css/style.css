@@ -549,7 +549,7 @@ a.theme-btn:hover i {
 @media only screen and (max-width: 575px) {
   .theme-btn,
   a.theme-btn {
-    padding: 10px 25px;
+    padding: 10px 20px;
   }
 }
 .theme-btn.style-two,
@@ -724,6 +724,7 @@ a.theme-btn.style-three {
 .read-more1 {
   font-weight: 600;
   color: #333;
+  font-size: 14px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -779,7 +780,7 @@ a.theme-btn.style-three {
   transform: translate(0);
 }
 .read-more1.style-two:hover i {
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 13px;
   left: calc(100% - 28px);
 }
@@ -1447,8 +1448,8 @@ h3,
 
 h4,
 .h4 {
-  line-height: 1.4;
-  font-size: 24px;
+  line-height: 1.2;
+  font-size: 22px;
 }
 
 h5,
@@ -4428,17 +4429,17 @@ h6,
     border-left: 1px solid var(--ygency-border-color);
     text-align: center;
     line-height: 43px;
-    animation: zoomInOut 1s infinite alternate; 
-}
+    animation: zoomInOut 1s infinite alternate;
+  }
 
-@keyframes zoomInOut {
+  @keyframes zoomInOut {
     0% {
-        transform: scale(1); 
+      transform: scale(1);
     }
     100% {
-        transform: scale(1.2); 
+      transform: scale(1.2);
     }
-}
+  }
 }
 .main-menu .navbar-collapse li a {
   display: block;
@@ -5566,12 +5567,12 @@ h6,
 }
 @media only screen and (max-width: 479px) {
   .slide-content h2 {
-    font-size: 38px;
+    font-size: 34px;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 381px) {
   .slide-content h2 {
-    font-size: 33px;
+    font-size: 30px;
   }
 }
 .slide-content h2 span {
@@ -8599,7 +8600,7 @@ blockquote .blockquote-footer:before {
   position: absolute;
   left: 25px;
   bottom: 40px;
-  padding: 10px 15px;
+  padding: 6px 15px;
   background: #f99210;
 }
 .team-member.style-three .image .social-style-two a {
@@ -11984,9 +11985,9 @@ blockquote .blockquote-footer:before {
     font-size: 30px !important;
   }
 }
-@media (max-width: 567px) and (min-width: 320px) {
+@media (max-width: 567px) and (min-width: 280px) {
   .h2-font {
-    font-size: 27px !important;
+    font-size: 24px !important;
   }
 }
 .h4-font {
@@ -12069,6 +12070,7 @@ blockquote .blockquote-footer:before {
   margin: 20px 0px 20px 0px;
   line-height: 28px;
   text-align: center;
+  font-size: 15px;
 }
 .review-name {
   text-align: right;

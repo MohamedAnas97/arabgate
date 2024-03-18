@@ -158,7 +158,7 @@ const index5 = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <div className="section-title text-center mb-55 wow fadeInUp delay-0-2s">
-                <span className="sub-title  font-fam ">Our Services</span>
+                <span className="sub-title text-center font-fam ">Our Services</span>
                 <h2 className="text-color h2-font font-fam">
                   Quality Service is Our Guarantee
                 </h2>
