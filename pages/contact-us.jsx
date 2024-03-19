@@ -9,7 +9,7 @@ const contactDetails = () => {
       <div className="mt-80 rmt-40 mb-80 rmb-40">
         <ContactLayout />
       </div>
-      <div className="contact-page-map mb-70 rmb-20 rpb-40 wow fadeInUp delay-0-2s">
+      <div className="contact-page-map mb-70 rmb-20 rpb-40 ">
         <div className="container container-1290">
           <div className="our-location">
             <iframe

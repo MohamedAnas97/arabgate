@@ -51,7 +51,7 @@ const ContactFooter = () => {
             </div>
           </div>
           <div className="col-lg-6 ">
-            <div className="drop-me-form-part rmb-30 rmb-30 wow fadeInLeft delay-0-2s contact-background">
+            <div className="drop-me-form-part rmb-30 rmb-30 contact-background">
               <ContactForm1 />
             </div>
           </div>

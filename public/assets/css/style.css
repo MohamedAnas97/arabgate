@@ -6588,12 +6588,13 @@ h6,
 @media only screen and (max-width: 767px) {
   .service-item {
     margin-top: 0;
+    padding: 15px 0px 15px 20px;
   }
 }
 @media only screen and (max-width: 568px) {
   .service-item {
     margin-bottom: 15px;
-    padding: 15px 0px 15px 20px ;
+    padding: 15px 0px 15px 20px;
   }
 }
 
@@ -6696,11 +6697,18 @@ h6,
 }
 @media (max-width: 768px) and (min-width: 568px) {
   .service-item.style-three {
-    height: 190px;
+    height: 155px;
+  }
+}
+@media (max-width: 567px) and (min-width: 410px) {
+  .service-item.style-three {
+    padding-left: 20px;
+    padding-right: 10px;
+    height: 140px;
   }
 }
 
-@media (max-width: 567px) and (min-width: 350px) {
+@media (max-width: 409px) and (min-width: 350px) {
   .service-item.style-three {
     padding-left: 20px;
     padding-right: 10px;
@@ -7314,14 +7322,15 @@ h6,
 }
 @media only screen and (max-width: 767px) {
   .blog-item.style-three .content {
-    height: 160px;
+    height: 150px;
+    padding: 20px 20px;
   }
 }
 @media only screen and (max-width: 375px) {
   .blog-item.style-three .content {
-    padding-left: 25px;
-    padding-right: 25px;
-    height: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 140px;
   }
 }
 .blog-item.style-three .content h5 {

@@ -98,12 +98,12 @@ const AboutUs = () => {
         </div> */}
       </section>
       <section className="review-bg mt-50 mb-60">
-        <div className="section-title text-center pt-80 wow fadeInUp delay-0-2s">
+        <div className="section-title text-center pt-80 rpt-50 wow fadeInUp delay-0-2s">
           <h3 className="text-color font-fam h2-font">
             What Our Customers Say About Us
           </h3>
         </div>
-        <div className="container container-1290 pt-50 pb-50 ">
+        <div className="container container-1290 pt-50 rpt-30 pb-50 rpb-20 ">
           <Carousel
             responsive={responsive}
             autoPlay={true}

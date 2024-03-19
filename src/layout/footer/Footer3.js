@@ -106,7 +106,7 @@ const Footer3 = () => {
             </div>
           </div>
         </div>
-        <div className="copyright-area text-center  pb-20 wow fadeInUp delay-0-2s">
+        <div className="copyright-area text-center  pb-20 ">
           <p>
             Copyright @2024 {" "}
             <Link legacyBehavior href="/">
