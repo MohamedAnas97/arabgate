@@ -325,7 +325,6 @@ const index5 = () => {
                 </div>
               </div>
             </div>
-
             <div className="col-xl-3 col-lg-4 col-sm-6">
               <div className="team-member style-three wow fadeInUp delay-0-2s">
                 <div className="image">

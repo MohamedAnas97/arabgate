@@ -14,7 +14,6 @@ export default class TestimonialOne extends Component {
   previous() {
     this.slider.slickPrev();
   }
-
   render() {
     return (
       <div className="testimonial-one-right-part rmb-75">

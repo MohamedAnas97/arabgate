@@ -1,6 +1,5 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
-import Link from "next/link";
 import ContactLayout from "@/src/components/contactFooter";
 const contactDetails = () => {
   return (

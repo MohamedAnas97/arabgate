@@ -86,7 +86,7 @@ const Footer3 = () => {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="footer-widget newsletter-widget wow fadeInUp delay-0-6s">
+            <div className="footer-widget newsletter-widget wow fadeInUp delay-0-2s">
               <h5 className="footer-title font-fam">Subscribe To Our Newsletter</h5>
               <form className="footer-newsletter" onSubmit={handleSubmit}>
         <input 

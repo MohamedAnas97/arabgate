@@ -63,7 +63,7 @@ const PlumbingServices = () => {
               We understand the importance of a smoothly functioning plumbing
               system in both residential and commercial spaces.
             </h5>
-            <h5 className="fadeInUp delay-0-2s wow mt-30 text-color font-fam h5-font">
+            <h5 className="fadeInUp delay-0-2s wow mt-30 rmt-20 text-color font-fam h5-font">
               Our team of skilled plumbers is dedicated to providing
               comprehensive plumbing services to ensure the reliability, safety
               and efficiency of your water and drainage systems.
@@ -95,7 +95,7 @@ const PlumbingServices = () => {
         </div>
       </div>
 
-      <section className="work-gallery-area py-80 rpy-80">
+      <section className="work-gallery-area py-80 rpy-50">
         <div className="container">
           <Swiper
             {...sliderProps.galleryFiveActive}
@@ -109,21 +109,21 @@ const PlumbingServices = () => {
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-4s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab/pmb2.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-6s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab/pmb3.jpg" alt="" />
                 </div>
               </div>{" "}
             </SwiperSlide>
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-8s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab/pmb4.jpg" alt="" />
                 </div>
@@ -169,13 +169,13 @@ const PlumbingServices = () => {
           </div>
         </div>
       </section>
-      <section className="faq-area pt-20 rpt-0 pb-130 rpb-120 rel z-1">
+      <section className="faq-area pt-20 rpt-0 pb-130 rpb-110 rel z-1">
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
               <div className="faq-content-part rmb-55 wow fadeInRight delay-0-2s">
-                <div className="section-title mb-60">
-                  <h2>Frequently Asked Question</h2>
+                <div className="section-title mb-60 rmb-30">
+                  <h2 className="h3-font font-fam">Frequently Asked Question</h2>
                 </div>
                 <Accordion
                   defaultActiveKey="collapse0"

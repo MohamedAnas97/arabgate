@@ -50,10 +50,7 @@ const DigitalDisplay = () => {
   const [active, setActive] = useState("collapse0");
   return (
     <Layout>
-      {/* Page Banner Start */}
       <PageBanner pageName={"Digital Display & Signages"} />
-      {/* Page Banner End */}
-
       <div className="container container-1290">
         <div className="row">
           <div className="col-lg-12 mt-30">
@@ -64,7 +61,7 @@ const DigitalDisplay = () => {
               fine pixel pitch and longer LED lifetimes.
             </h5>
           </div>
-          <div className="about-content wow fadeInUp delay-0-4s">
+          <div className="about-content wow fadeInUp delay-0-2s">
             <div className="section-title pt-20">
               <h4 className="text-color font-fam h4-font">Indoor Displays</h4>
             </div>
@@ -83,7 +80,7 @@ const DigitalDisplay = () => {
               </ul>
             </div>
           </div>
-          <div className="about-content wow fadeInUp delay-0-4s">
+          <div className="about-content wow fadeInUp delay-0-2s">
             <div className="section-title pt-20">
               <h4 className="text-color font-fam h4-font">Outdoor Displays</h4>
             </div>
@@ -102,7 +99,7 @@ const DigitalDisplay = () => {
               </ul>
             </div>
           </div>
-          <div className="about-content wow fadeInUp delay-0-4s">
+          <div className="about-content wow fadeInUp delay-0-2s">
             <div className="section-title pt-20">
               <h4 className="text-color font-fam h4-font">
                 Interactive Screens for Schools and Business
@@ -123,7 +120,7 @@ const DigitalDisplay = () => {
               </ul>
             </div>
           </div>
-          <div className="about-content wow fadeInUp delay-0-4s">
+          <div className="about-content wow fadeInUp delay-0-2s">
             <div className="section-title pt-20">
               <h4 className="text-color font-fam h4-font">
                 Digital Signage Software
@@ -146,7 +143,7 @@ const DigitalDisplay = () => {
           </div>
         </div>
       </div>
-      <section className="work-gallery-area py-80 rpy-80">
+      <section className="work-gallery-area py-80 rpy-50">
         <div className="container">
           <Swiper
             {...sliderProps.galleryFiveActive}
@@ -160,21 +157,21 @@ const DigitalDisplay = () => {
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-4s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab2/sig2.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-6s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab2/sig3.jpg" alt="" />
                 </div>
               </div>{" "}
             </SwiperSlide>
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-8s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab2/sig4.jpg" alt="" />
                 </div>
@@ -220,13 +217,13 @@ const DigitalDisplay = () => {
           </div>
         </div>
       </section>
-      <section className="faq-area pt-20 rpt-0 pb-130 rpb-120 rel z-1">
+      <section className="faq-area pt-20 rpt-0 pb-130 rpb-110 rel z-1">
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
               <div className="faq-content-part rmb-55 wow fadeInRight delay-0-2s">
-                <div className="section-title mb-60">
-                  <h2>Frequently Asked Question</h2>
+                <div className="section-title mb-60 rmb-30">
+                  <h2 className="h3-font font-fam">Frequently Asked Question</h2>
                 </div>
                 <Accordion
                   defaultActiveKey="collapse0"

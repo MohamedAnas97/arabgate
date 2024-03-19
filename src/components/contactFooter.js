@@ -10,9 +10,6 @@ const ContactFooter = () => {
                 <div className="col-xl-10">
                   <div className="section-title mb-20">
                     <span className="text-color font-fam ">Just shout us out!</span>
-                    {/* <h2 className="py-20">
-                        Let's be partners in digital transformation
-                      </h2> */}
                     <div className="footer-contact-info wow fadeInUp delay-0-2s animated">
                       <h5 className="text-color font-fam">
                         Still got questions? Drop us an email at:{" "}

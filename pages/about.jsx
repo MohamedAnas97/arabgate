@@ -46,8 +46,8 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <section className=" pt-80 rpt-80 rel z-1">
-        <div className="container container-1290 pb-30">
+      <section className=" pt-80 rpt-50 rel z-1">
+        <div className="container container-1290 pb-30 rpb-10">
           <div className="hero-bottom-image ">
             <ReactPlayer
               url={video}
@@ -93,9 +93,6 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        {/* <div className="hero-bg">
-          <img src="assets/images/hero/hero-bg.png" alt="lines" />
-        </div> */}
       </section>
       <section className="review-bg mt-50 mb-60">
         <div className="section-title text-center pt-80 rpt-50 wow fadeInUp delay-0-2s">
@@ -253,7 +250,6 @@ const AboutUs = () => {
           </Carousel>
         </div>
       </section>
-
       <div className="rmy-30">
         <ContactLayout />
       </div>

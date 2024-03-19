@@ -4,7 +4,7 @@ const E404 = () => {
   return (
     <Layout>
       <section className="non-background">
-        <div className="container container-1290  pt-140 pb-60">
+        <div className="container container-1290 pt-140 pb-60">
           <div className="row align-items-center">
             <div className="col-lg-5">
               <div className="error-content rmb-55 wow fadeInRight delay-0-2s">
@@ -17,7 +17,6 @@ const E404 = () => {
                     Go to Home <i className="far fa-arrow-right" />
                   </a>
                 </Link>
-                
               </div>
             </div>
             <div className="col-lg-7">
@@ -31,7 +30,6 @@ const E404 = () => {
           </div>
         </div>
       </section>
-      {/* 404 Error Section End */}
     </Layout>
   );
 };

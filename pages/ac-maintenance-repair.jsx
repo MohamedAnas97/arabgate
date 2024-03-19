@@ -1,13 +1,10 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 import YgencyAccordion from "@/src/components/YgencyAccordion";
-// import Link from "next/link";
 import { sliderProps } from "@/src/sliderProps";
 import ContactLayout from "@/src/components/contactFooter";
-// import { Nav, Tab } from "react-bootstrap";
 import { Accordion } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
-import ContactForm1 from "@/src/components/ContactForm1";
 import { useState } from "react";
 const AcMaintenance = () => {
   const accordionData = [
@@ -54,10 +51,7 @@ const AcMaintenance = () => {
   const [active, setActive] = useState("collapse0");
   return (
     <Layout>
-      {/* Page Banner Start */}
       <PageBanner pageName={"AC Maintenance and Repair "} />
-      {/* Page Banner End */}
-
       <div className="container container-1290">
         <div className="row">
           <div className="col-lg-12 mt-30">
@@ -65,7 +59,7 @@ const AcMaintenance = () => {
               We understand the importance of a well-functioning air
               conditioning system, especially during the scorching heat.
             </h5>
-            <h5 className="fadeInUp delay-0-2s wow mt-30 text-color font-fam h5-font">
+            <h5 className="fadeInUp delay-0-2s wow mt-30 rmt-20 text-color font-fam h5-font">
               Our team of skilled technicians is dedicated to providing
               comprehensive AC maintenance and repair services to ensure your
               system operates efficiently, providing you with a cool and
@@ -74,7 +68,6 @@ const AcMaintenance = () => {
           </div>
           <div className="about-content wow fadeInUp delay-0-2s">
             <div className="section-title pt-20">
-              {/* <span className="sub-title mb-15">What We Do</span> */}
               <h4 className="text-color font-fam h4-font">
                 Our Services Includes :
               </h4>
@@ -99,12 +92,9 @@ const AcMaintenance = () => {
               </ul>
             </div>
           </div>
-
         </div>
       </div>
-
-      {/* Related Products Area start */}
-      <section className="work-gallery-area py-80 rpy-80">
+      <section className="work-gallery-area py-80 rpy-50">
         <div className="container">
           <Swiper
             {...sliderProps.galleryFiveActive}
@@ -118,21 +108,21 @@ const AcMaintenance = () => {
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-4s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab2/ac2.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-6s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab2/ac3.jpg" alt="" />
                 </div>
               </div>{" "}
             </SwiperSlide>
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-8s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab2/ac4.jpg" alt="" />
                 </div>
@@ -178,13 +168,13 @@ const AcMaintenance = () => {
           </div>
         </div>
       </section>
-      <section className="faq-area pt-20 rpt-0 pb-130 rpb-120 rel z-1">
+      <section className="faq-area pt-20 rpt-0 pb-130 rpb-110 rel z-1">
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
               <div className="faq-content-part rmb-55 wow fadeInRight delay-0-2s">
-                <div className="section-title mb-60">
-                  <h2>Frequently Asked Question</h2>
+                <div className="section-title mb-60 rmb-30">
+                  <h2 className="h3-font font-fam">Frequently Asked Question</h2>
                 </div>
                 <Accordion
                   defaultActiveKey="collapse0"

@@ -21,7 +21,7 @@ const ProductDetails = () => {
           </div>
         </div>
       </div>
-      <section className="blog-area-four pt-70 rpt-70 pb-70 rpb-40">
+      <section className="blog-area-four pt-70 rpt-40 pb-70 rpb-20">
         <div className="container container-1290">
           <div className="row">
             <div className="col-xl-4 col-md-6">

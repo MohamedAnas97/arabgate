@@ -53,10 +53,7 @@ const CctvService = () => {
   const [active, setActive] = useState("collapse0");
   return (
     <Layout>
-      {/* Page Banner Start */}
       <PageBanner pageName={" CCTV Security Systems "} />
-      {/* Page Banner End */}
-
       <div className="container container-1290">
         <div className="row">
           <div className="col-lg-12 mt-30">
@@ -64,23 +61,22 @@ const CctvService = () => {
               We offer diverse range of services to establish security in your
               property through tried and tested surveillance systems.
             </h5>
-            <h5 className="fadeInUp delay-0-2s wow mt-30 text-color font-fam h5-font">
+            <h5 className="fadeInUp delay-0-2s wow mt-30 rmt-20 text-color font-fam h5-font">
               CCTV surveillance systems is the most important technology that
               ensures impeccable security and safety to the residence in Dubai.
             </h5>
-            <h5 className="fadeInUp delay-0-2s wow mt-30 text-color font-fam h5-font">
+            <h5 className="fadeInUp delay-0-2s wow mt-30 rmt-20 text-color font-fam h5-font">
               The evidences collected through CCTV cameras helps the
               authorities, security and business owners to uncover the details
               of a specific incident.
             </h5>
-            <h5 className="fadeInUp delay-0-2s wow mt-30 text-color font-fam h5-font">
+            <h5 className="fadeInUp delay-0-2s wow mt-30 rmt-20 text-color font-fam h5-font">
               Cameras with an intrusion alarm provides shops and business
               environments much needed security.
             </h5>
           </div>
           <div className="about-content wow fadeInUp delay-0-4s">
             <div className="section-title pt-20">
-              {/* <span className="sub-title mb-15">What We Do</span> */}
               <h4 className="text-color font-fam h4-font">
               Our Services Includes :
               </h4>
@@ -110,19 +106,7 @@ const CctvService = () => {
           </div>
         </div>
       </div>
-
-      {/* Related Products Area start */}
-      <section className="work-gallery-area py-80 rpy-80">
-        {/* <div className="container container-1290">
-          <div className="row justify-content-center">
-            <div className="col-xl-8 col-lg-10">
-              <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-20">Recent Works Gallery</span>
-                <h2>We’ve Complete 1532+ Projects Take A Look Our Work</h2>
-              </div>
-            </div>
-          </div>
-        </div> */}
+      <section className="work-gallery-area py-80 rpy-50">
         <div className="container">
           <Swiper
             {...sliderProps.galleryFiveActive}
@@ -136,21 +120,21 @@ const CctvService = () => {
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-4s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab2/cc2.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-6s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab2/cc3.jpg" alt="" />
                 </div>
               </div>{" "}
             </SwiperSlide>
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-8s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab2/cc4.jpg" alt="" />
                 </div>
@@ -196,13 +180,13 @@ const CctvService = () => {
           </div>
         </div>
       </section>
-      <section className="faq-area pt-20 rpt-0 pb-130 rpb-120 rel z-1">
+      <section className="faq-area pt-20 rpt-0 pb-130 rpb-110 rel z-1">
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
               <div className="faq-content-part rmb-55 wow fadeInRight delay-0-2s">
-                <div className="section-title mb-60">
-                  <h2>Frequently Asked Question</h2>
+                <div className="section-title mb-60 rmb-30">
+                  <h2 className="h3-font font-fam">Frequently Asked Question</h2>
                 </div>
                 <Accordion
                   defaultActiveKey="collapse0"

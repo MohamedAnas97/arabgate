@@ -63,7 +63,7 @@ const DisplayFixtures = () => {
             </h5>
           </div>
           <div className="col-lg-12 mt-30">
-            <h5 className="fadeInUp delay-0-2s wow mt-30 text-color font-fam h5-font">
+            <h5 className="fadeInUp delay-0-2s wow mt-30 rmt-20 text-color font-fam h5-font">
               We specialize in elevating your retail space through expert
               gondola and wall display installations. With a keen eye for design
               and precision, our skilled team ensures your merchandise is
@@ -146,13 +146,13 @@ const DisplayFixtures = () => {
           </div>
         </div>
       </section>
-      <section className="faq-area pt-20 rpt-0 pb-130 rpb-80 rel z-1">
+      <section className="faq-area pt-20 rpt-0 pb-130 rpb-110 rel z-1">
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
               <div className="faq-content-part rmb-55 wow fadeInRight delay-0-2s">
                 <div className="section-title mb-60 rmb-30">
-                  <h2>Frequently Asked Question</h2>
+                  <h2 className="h3-font font-fam">Frequently Asked Question</h2>
                 </div>
                 <Accordion
                   defaultActiveKey="collapse0"

@@ -64,14 +64,14 @@ const ProductDetails = () => {
               process . High-quality renovations for kitchens, bathrooms,
               commercial spaces and residences.
             </h5>
-            <h5 className="fadeInUp delay-0-2s wow mt-30 text-color font-fam h5-font">
+            <h5 className="fadeInUp delay-0-2s wow mt-30 rmt-20 text-color font-fam h5-font">
               Revitalize and update your existing space with our renovation
               services. Our team is dedicated to delivering high-quality
               renovations that not only enhance the aesthetics but also improve
               functionality and energy efficiency.
             </h5>
 
-            <h5 className="fadeInUp delay-0-2s wow mt-30 text-color font-fam h5-font">
+            <h5 className="fadeInUp delay-0-2s wow mt-30 rmt-20 text-color font-fam h5-font">
               We your space a fresh and modern look with our comprehensive
               interior fit-out solutions. From concept to completion, we handle
               every aspect of the project, ensuring a seamless and efficient
@@ -104,7 +104,7 @@ const ProductDetails = () => {
           </div>
         </div>
       </div>
-      <section className="work-gallery-area py-80 rpy-80">
+      <section className="work-gallery-area py-80 rpy-50">
         <div className="container">
           <Swiper
             {...sliderProps.galleryFiveActive}
@@ -178,13 +178,13 @@ const ProductDetails = () => {
           </div>
         </div>
       </section>
-      <section className="faq-area pt-20 rpt-0 pb-130 rpb-120 rel z-1">
+      <section className="faq-area pt-20 rpt-0 pb-130 rpb-110 rel z-1">
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
               <div className="faq-content-part rmb-55 wow fadeInRight delay-0-2s">
-                <div className="section-title mb-60">
-                  <h2>Frequently Asked Question</h2>
+                <div className="section-title mb-60 rmb-30">
+                  <h2 className="h3-font font-fam">Frequently Asked Question</h2>
                 </div>
                 <Accordion
                   defaultActiveKey="collapse0"

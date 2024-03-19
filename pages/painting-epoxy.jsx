@@ -1,13 +1,10 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 import YgencyAccordion from "@/src/components/YgencyAccordion";
-// import Link from "next/link";
 import { sliderProps } from "@/src/sliderProps";
 import ContactLayout from "@/src/components/contactFooter";
-// import { Nav, Tab } from "react-bootstrap";
 import { Accordion } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
-import ContactForm1 from "@/src/components/ContactForm1";
 import { useState } from "react";
 const PaintingEpoxy = () => {
   const accordionData = [
@@ -54,10 +51,7 @@ const PaintingEpoxy = () => {
   const [active, setActive] = useState("collapse0");
   return (
     <Layout>
-      {/* Page Banner Start */}
       <PageBanner pageName={" Painting and Epoxy"} />
-      {/* Page Banner End */}
-
       <div className="container container-1290">
         <div className="row">
           <div className="col-lg-12 mt-30">
@@ -65,7 +59,7 @@ const PaintingEpoxy = () => {
               We understand the importance of a smoothly functioning plumbing
               system in both residential and commercial spaces.
             </h5>
-            <h5 className="fadeInUp delay-0-2s wow mt-30 text-color font-fam h5-font">
+            <h5 className="fadeInUp delay-0-2s wow mt-30 rmt-20 text-color font-fam h5-font">
               Our team of skilled professionals is committed to enhancing
               aesthetics, providing durability and ensuring your satisfaction
               with every stroke of the brush and layer of epoxy.
@@ -73,9 +67,7 @@ const PaintingEpoxy = () => {
           </div>
         </div>
       </div>
-
-      {/* Related Products Area start */}
-      <section className="work-gallery-area py-80 rpy-80">
+      <section className="work-gallery-area py-80 rpy-50">
         <div className="container">
           <Swiper
             {...sliderProps.galleryFiveActive}
@@ -149,13 +141,13 @@ const PaintingEpoxy = () => {
           </div>
         </div>
       </section>
-      <section className="faq-area pt-20 rpt-0 pb-130 rpb-120 rel z-1">
+      <section className="faq-area pt-20 rpt-0 pb-130 rpb-110 rel z-1">
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
               <div className="faq-content-part rmb-55 wow fadeInRight delay-0-2s">
                 <div className="section-title mb-60">
-                  <h2>Frequently Asked Question</h2>
+                  <h2 className="h3-font font-fam">Frequently Asked Question</h2>
                 </div>
                 <Accordion
                   defaultActiveKey="collapse0"

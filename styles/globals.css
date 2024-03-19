@@ -73,7 +73,11 @@
   justify-content: center;
   margin: 0 auto;
 }
-
+@media only screen and (max-width: 375px) {
+  .work-gallery-controls {
+    width: 250px;
+  }
+}
 /* logo header */
 .main-logo {
   height: 45px;

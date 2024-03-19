@@ -34,7 +34,6 @@ const ContactForm1 = () => {
           "Success! Thanks for contacting Arab Gate!. We'll connect soon!."
         );
         setErrorMessage("");
-        // Reset form fields after successful submission
         setName("");
         setPhone("");
         setEmail("");
@@ -48,7 +47,6 @@ const ContactForm1 = () => {
       });
   };
   useEffect(() => {
-    // Remove success message after 5 seconds
     const timer = setTimeout(() => {
       setSuccessMessage("");
     }, 5000);
