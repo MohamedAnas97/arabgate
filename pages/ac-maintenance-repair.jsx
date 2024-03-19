@@ -72,7 +72,7 @@ const AcMaintenance = () => {
               comfortable environment year-round.
             </h5>
           </div>
-          <div className="about-content wow fadeInUp delay-0-4s">
+          <div className="about-content wow fadeInUp delay-0-2s">
             <div className="section-title pt-20">
               {/* <span className="sub-title mb-15">What We Do</span> */}
               <h4 className="text-color font-fam h4-font">
@@ -105,16 +105,6 @@ const AcMaintenance = () => {
 
       {/* Related Products Area start */}
       <section className="work-gallery-area py-80 rpy-80">
-        {/* <div className="container container-1290">
-          <div className="row justify-content-center">
-            <div className="col-xl-8 col-lg-10">
-              <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-20">Recent Works Gallery</span>
-                <h2>We’ve Complete 1532+ Projects Take A Look Our Work</h2>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className="container">
           <Swiper
             {...sliderProps.galleryFiveActive}

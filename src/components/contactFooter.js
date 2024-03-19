@@ -13,7 +13,7 @@ const ContactFooter = () => {
                     {/* <h2 className="py-20">
                         Let's be partners in digital transformation
                       </h2> */}
-                    <div className="footer-contact-info wow fadeInUp delay-0-3s animated">
+                    <div className="footer-contact-info wow fadeInUp delay-0-2s animated">
                       <h5 className="text-color font-fam">
                         Still got questions? Drop us an email at:{" "}
                       </h5>
@@ -51,7 +51,7 @@ const ContactFooter = () => {
             </div>
           </div>
           <div className="col-lg-6 ">
-            <div className="drop-me-form-part rmb-30 rmb-30 contact-background">
+            <div className="drop-me-form-part rmb-30 rmb-30 wow fadeInUp delay-0-2s contact-background">
               <ContactForm1 />
             </div>
           </div>

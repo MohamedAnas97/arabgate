@@ -72,7 +72,7 @@ const DisplayFixtures = () => {
           </div>
         </div>
       </div>
-      <section className="work-gallery-area py-80 rpy-80">
+      <section className="work-gallery-area py-80 rpy-50">
         <div className="container">
           <Swiper
             {...sliderProps.galleryFiveActive}
@@ -86,21 +86,21 @@ const DisplayFixtures = () => {
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-4s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab2/f2.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-6s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab2/f3.jpg" alt="" />
                 </div>
               </div>{" "}
             </SwiperSlide>
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-8s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab2/f4.jpg" alt="" />
                 </div>
@@ -114,21 +114,21 @@ const DisplayFixtures = () => {
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-4s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab2/f2.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-6s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab2/f3.jpg" alt="" />
                 </div>
               </div>{" "}
             </SwiperSlide>
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-8s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab2/f4.jpg" alt="" />
                 </div>
@@ -146,12 +146,12 @@ const DisplayFixtures = () => {
           </div>
         </div>
       </section>
-      <section className="faq-area pt-20 rpt-0 pb-130 rpb-120 rel z-1">
+      <section className="faq-area pt-20 rpt-0 pb-130 rpb-80 rel z-1">
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
               <div className="faq-content-part rmb-55 wow fadeInRight delay-0-2s">
-                <div className="section-title mb-60">
+                <div className="section-title mb-60 rmb-30">
                   <h2>Frequently Asked Question</h2>
                 </div>
                 <Accordion

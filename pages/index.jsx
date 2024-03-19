@@ -169,7 +169,7 @@ const index5 = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-3 col-lg-4 col-sm-6 ">
-              <div className="team-member style-three wow fadeInUp delay-0-4s ">
+              <div className="team-member style-three wow fadeInUp delay-0-2s ">
                 <div className="image">
                   <img src="assets/images/arab/h2.png" alt="image" />
                   <Link href="/contact-us">
@@ -200,7 +200,7 @@ const index5 = () => {
               </div>
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div className="team-member style-three wow fadeInUp delay-0-6s">
+              <div className="team-member style-three wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab/h4.png" alt="image" />
                   <Link href="/contact-us">
@@ -327,7 +327,7 @@ const index5 = () => {
             </div>
 
             <div className="col-xl-3 col-lg-4 col-sm-6">
-              <div className="team-member style-three wow fadeInUp delay-0-8s">
+              <div className="team-member style-three wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab/h1.png" alt="image" />
                   <Link href="/contact-us">

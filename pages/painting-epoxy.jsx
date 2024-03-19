@@ -71,45 +71,11 @@ const PaintingEpoxy = () => {
               with every stroke of the brush and layer of epoxy.
             </h5>
           </div>
-          {/* <div className="about-content wow fadeInUp delay-0-4s">
-            <div className="section-title pt-20">
-           
-              <h4 className="text-color font-fam h4-font">
-                Our Services Includes :
-              </h4>
-            </div>
-            <div className="content">
-              <ul className="list-style-three ">
-                <li className="text-color font-fam h5-font">
-                  Prompt and Reliable experienced Plumbers
-                </li>
-                <li className="text-color font-fam h5-font">
-                  Residential Plumbing Solutions
-                </li>
-                <li className="text-color font-fam h5-font">
-                  Commercial Plumbing Services
-                </li>
-                <li className="text-color font-fam h5-font">
-                  Industrial Plumbing Solutions
-                </li>
-              </ul>
-            </div>
-          </div> */}
         </div>
       </div>
 
       {/* Related Products Area start */}
       <section className="work-gallery-area py-80 rpy-80">
-        {/* <div className="container container-1290">
-          <div className="row justify-content-center">
-            <div className="col-xl-8 col-lg-10">
-              <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-                <span className="sub-title mb-20">Recent Works Gallery</span>
-                <h2>We’ve Complete 1532+ Projects Take A Look Our Work</h2>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className="container">
           <Swiper
             {...sliderProps.galleryFiveActive}
@@ -123,21 +89,21 @@ const PaintingEpoxy = () => {
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-4s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab/pnt6.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-6s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab/pnt3.jpg" alt="" />
                 </div>
               </div>{" "}
             </SwiperSlide>
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-8s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab/pnt1.jpg" alt="" />
                 </div>

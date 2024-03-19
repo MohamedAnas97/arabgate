@@ -68,7 +68,7 @@ const ElectricalServices = () => {
               maintenance.
             </h5>
           </div>
-          <div className="about-content wow fadeInUp delay-0-4s">
+          <div className="about-content wow fadeInUp delay-0-2s">
             <div className="section-title pt-20">
               {/* <span className="sub-title mb-15">What We Do</span> */}
               <h4 className="text-color font-fam h4-font">
@@ -94,7 +94,7 @@ const ElectricalServices = () => {
               </ul>
             </div>
           </div>
-          <div className="about-content wow fadeInUp delay-0-4s">
+          <div className="about-content wow fadeInUp delay-0-2s">
             <div className="section-title pt-20">
               {/* <span className="sub-title mb-15">What We Do</span> */}
               <h4 className="text-color font-fam h4-font">
@@ -136,21 +136,21 @@ const ElectricalServices = () => {
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-4s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab/ele6.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-6s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab/ele9.jpg" alt="" />
                 </div>
               </div>{" "}
             </SwiperSlide>
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-8s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab/ele5.jpg" alt="" />
                 </div>

@@ -79,7 +79,7 @@ const ProductDetails = () => {
               commercial spaces and residences.
             </h5>
           </div>
-          <div className="about-content wow fadeInUp delay-0-4s">
+          <div className="about-content wow fadeInUp delay-0-2s">
             <div className="section-title pt-20">
               <h4 className="text-color font-fam h4-font">
                 Our Services Includes :
@@ -118,21 +118,21 @@ const ProductDetails = () => {
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-4s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab/int2.jpg" alt="" />
                 </div>
               </div>
             </SwiperSlide>{" "}
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-6s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab/int3.jpg" alt="" />
                 </div>
               </div>{" "}
             </SwiperSlide>
             <SwiperSlide>
-              <div className="project-item style-five wow fadeInUp delay-0-8s">
+              <div className="project-item style-five wow fadeInUp delay-0-2s">
                 <div className="image">
                   <img src="assets/images/arab/int4.jpg" alt="" />
                 </div>
