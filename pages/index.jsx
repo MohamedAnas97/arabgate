@@ -34,7 +34,7 @@ const index5 = () => {
   return (
     <Layout footer={5} header={5}>
       <Home5Slider />
-      <section className="what-we-offer pb-90 rpb-70">
+      <section className="what-we-offer pb-90 rpb-50">
         <div className="container container-1290">
           <div className="section-title text-center mt-60 mb-40 wow fadeInUp delay-0-2s">
             <h3 className="text-color font-fam h2-font">
@@ -139,7 +139,7 @@ const index5 = () => {
       {/* Service Box end */}
       {/* About Us Area start */}
       <div className="container container-1290 wow fadeInUp delay-0-2s">
-        <div className="hero-bottom-image  mb-60 wow fadeInUp delay-0-2s">
+        <div className="hero-bottom-image  mb-60 rmb-40 wow fadeInUp delay-0-2s">
           <ReactPlayer
             url={video}
             controls={false}
@@ -473,12 +473,12 @@ const index5 = () => {
         <ContactLayout />
       </div>
       <section className="review-bg">
-        <div className="section-title text-center pt-80 wow fadeInUp delay-0-2s">
+        <div className="section-title text-center pt-80 rpt-50 wow fadeInUp delay-0-2s">
           <h3 className="text-color font-fam h2-font">
             What Our Customers Say About Us
           </h3>
         </div>
-        <div className="container container-1290 pt-50 pb-50">
+        <div className="container container-1290 pt-50 rpt-20  pb-50 rpb-20">
           <Carousel
             responsive={responsive}
             autoPlay={true}

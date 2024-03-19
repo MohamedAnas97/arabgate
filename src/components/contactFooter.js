@@ -30,9 +30,9 @@ const ContactFooter = () => {
                   </div>
                 </div>
               </div>
-              <div className="row gap-80 pb-30">
+              <div className="row gap-80 ">
                 <div className="col-sm-12">
-                  <div className="our-location-address mb-20">
+                  <div className="our-location-address ">
                     <h5 className="text-color font-fam">DUBAI, UAE</h5>
                     <p className="text-color font-fam font-semibold">
                       ARAB GATE Technical Services LLC, B Block 104, Al Shaali
